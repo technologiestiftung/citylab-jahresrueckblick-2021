@@ -1,0 +1,12 @@
+@import 'src/styles/base.scss';
+
+:local {
+  .app {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .scrollContainer {
+    height: 5000px;
+  }
+}
