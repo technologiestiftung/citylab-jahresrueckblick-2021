@@ -1,4 +1,4 @@
-import { useRef, useMemo, memo } from 'react';
+import { useRef, useEffect } from 'react';
 
 import cn from './Tile.module.scss';
 
@@ -12,7 +12,7 @@ function Tile({children, id}) {
   const isOnScreen = useOnScreen(elementRef);
   const setActive = useImageGroupStore(setActiveSelector)
 
-  useMemo(() => {
+  useEffect(() => {
     if (isOnScreen) {
       setActive(id)
     }
@@ -26,4 +26,4 @@ function Tile({children, id}) {
   )
 }
 
-export default memo(Tile);
+export default Tile;
