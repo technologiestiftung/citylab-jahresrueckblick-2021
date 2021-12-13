@@ -7,7 +7,7 @@ import ScrollableImages from './components/ScrollableImages';
 function App() {
   return (
     <div className={cn.app}>
-      <ScrollableImages content={content.cluster}/>
+      <ScrollableImages content={content.cluster} ui={content.ui}/>
     </div>
   );
 }
