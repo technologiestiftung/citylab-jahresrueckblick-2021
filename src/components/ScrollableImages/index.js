@@ -1,17 +1,19 @@
-import cn from './DigitalVereint.module.scss';
+import cn from './ScrollableImages.module.scss';
 
-import ImageGroup from '../../components/ImageGroup';
-import Tile from '../../components/Tile';
+import ImageGroup from './ImageGroup';
+import ImageNav from './ImageNav';
+import Tile from './Tile';
 
 import useStore from '../../hooks/useStore'
 
 const langSelector = (s) => s.lang;
 
-function DigitalVereint({content}) {
+function ScrollableImages({content}) {
   const lang = useStore(langSelector)
   return (
     <div className={cn.scrollContainer}>
       <ImageGroup images={content} />
+      <ImageNav images={content} />
       {content.map(d => (
         <div key={d.id} className={cn.tileWrapper}>
           <Tile id={d.id}>
@@ -24,4 +26,4 @@ function DigitalVereint({content}) {
   )
 }
 
-export default DigitalVereint;
+export default ScrollableImages;

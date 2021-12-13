@@ -7,7 +7,8 @@ const content = {
   },
   cluster: [
     {
-      id: '1.0',
+      id: '1.1',
+      theme: 'light',
       text: {
         title: {
           de: 'Dies ist der Titel 1',
@@ -25,7 +26,8 @@ const content = {
       }
     },
     {
-      id: '1.1',
+      id: '1.2',
+      theme: 'dark',
       text: {
         title: {
           de: 'Dies ist der Titel 2',
@@ -38,6 +40,25 @@ const content = {
       },
       img: {
         src: 'assets/images/Bildschirmfoto 2021-09-09 um 14.40.21 Kopie.png',
+        alt: 'image tag',
+        copyright: 'copyright here'
+      }
+    },
+    {
+      id: '1.3',
+      theme: 'light',
+      text: {
+        title: {
+          de: 'Dies ist der Titel 3',
+          en: 'This is the title 3',
+        },
+        paragraph: {
+          de: 'Dies ist der Paragraph 3',
+          en: 'This is the Paragraph 3',
+        }
+      },
+      img: {
+        src: 'assets/images/20210922_CityLAB_1533.jpg',
         alt: 'image tag',
         copyright: 'copyright here'
       }

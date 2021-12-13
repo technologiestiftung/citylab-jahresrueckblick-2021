@@ -2,12 +2,12 @@ import cn from './App.module.scss';
 
 import content from './content';
 
-import DigitalVereint from './views/DigitalVereint';
+import ScrollableImages from './components/ScrollableImages';
 
 function App() {
   return (
     <div className={cn.app}>
-      <DigitalVereint content={content.cluster}/>
+      <ScrollableImages content={content.cluster}/>
     </div>
   );
 }
