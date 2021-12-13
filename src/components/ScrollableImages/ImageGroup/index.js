@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import cx from 'classnames';
 
 import cn from './ImageGroup.module.scss';
