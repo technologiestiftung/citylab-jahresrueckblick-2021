@@ -1,3 +1,7 @@
+import useStore, { useImageGroupStore } from '../../hooks/useStore'
+import { useMemo } from 'react';
+import cx from 'classnames';
+
 import cn from './ScrollableImages.module.scss';
 
 import ImageGroup from './ImageGroup';
@@ -5,27 +9,32 @@ import ImageNav from './ImageNav';
 import Tile from './Tile';
 import Button from '../Button';
 
-import useStore from '../../hooks/useStore'
-
 const langSelector = (s) => s.lang;
+const activeSelector = (s) => s.active;
 
 function ScrollableImages({content, ui}) {
-  const lang = useStore(langSelector)
   const {items, topic} = content;
+
+  const lang = useStore(langSelector);
+  const active = useImageGroupStore(activeSelector);
+  const activeItem = useMemo(() => {
+    return items.find(d => d.id === active)
+  }, [active, items])
+
   return (
     <div className={cn.scrollContainer}>
-      <ImageGroup images={items} />
-      <ImageNav images={items} />
+      <ImageGroup theme={activeItem.theme} images={items} />
+      <ImageNav theme={activeItem.theme}  images={items} />
       {items.map(d => (
         <div key={d.id} className={cn.tileWrapper}>
-          <Tile id={d.id}>
-            <div className={cn.topline}>
+          <Tile align={d.align} theme={d.theme} id={d.id}>
+            <div className={cx(cn.topline, cn[d.theme])}>
               <span className={cn.id}>{d.id}</span>
               <span className={cn.label}>{topic[lang]}</span>
             </div>
             <h3 className={cn.title}>{d.text.title[lang]}</h3>
             <p className={cn.text}>{d.text.paragraph[lang]}</p>
-            <Button to={d.text.link} label={ui.btnProject[lang]}/>
+            <Button theme={d.theme} to={d.text.link} label={ui.btnProject[lang]}/>
           </Tile>
         </div>
       ))}

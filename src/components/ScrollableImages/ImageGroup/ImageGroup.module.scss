@@ -1,7 +1,7 @@
 @import "src/styles/base.scss";
 
 :local {
-  .imageWrapper {
+  .imagesWrapper {
     width: 100vw;
     height: 100vh;
     background-color: black;
@@ -9,7 +9,18 @@
     z-index: -1;
     top: 0;
   }
-  
+  .copyright {
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    font-size: $font-size-xs;
+    opacity: .5;
+
+    &.dark {
+      color: white;
+    }
+  }
   .image {
     object-fit: cover;
     position: absolute;

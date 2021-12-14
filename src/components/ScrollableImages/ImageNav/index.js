@@ -7,7 +7,7 @@ const langSelector = (s) => s.lang;
 const activeSelector = (s) => s.active;
 const setActiveSelector = (s) => s.setActive;
 
-function ImageNav({images}) {
+function ImageNav({images, theme}) {
 
   const lang = useStore(langSelector);
   const active = useImageGroupStore(activeSelector);
@@ -19,7 +19,7 @@ function ImageNav({images}) {
   }
 
   return (
-    <div className={cn.wrapper}>
+    <div className={cx(cn.wrapper, cn[theme])}>
       {images.map(d => (
         <div className={cn.bubbleWrapper}>
           <span className={cn.label}>{d.text.title[lang]}</span>

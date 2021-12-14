@@ -17,10 +17,19 @@
     margin-bottom: 30px;  
   }
   .topline {
-
+    &.light {
+      color: white;
+      .id {
+        background-color: $dark-grey--1;
+      }
+    }
+    &.light {
+      color: white;
+    }
   }
   .id {
     font-size: $font-size-s;
+    letter-spacing: $letter-spacing-l;
     padding: 5px 10px;
     margin-right: 10px;
     background-color: $dark-grey--6;
@@ -28,5 +37,6 @@
   }
   .label {
     font-size: $font-size-s;
+    letter-spacing: $letter-spacing-m;
   }
 }

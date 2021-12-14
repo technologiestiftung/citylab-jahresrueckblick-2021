@@ -11,6 +11,12 @@
     right: 30px;
     transform: translateY(-50%);
     color: white;
+
+    &.light {
+      .bubble {
+        background-color: black;
+      }
+    }
   }
   .bubbleWrapper {
     display: flex;

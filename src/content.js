@@ -19,7 +19,8 @@ const content = {
     items: [
       {
         id: '1.1',
-        theme: 'light',
+        theme: 'dark',
+        align: 'left',
         text: {
           link: 'https://google.com',
           title: {
@@ -34,12 +35,13 @@ const content = {
         img: {
           src: 'assets/images/20210922_CityLAB_1533.jpg',
           alt: 'image tag',
-          copyright: 'copyright here'
+          copyright: 'Image copyright here.'
         }
       },
       {
         id: '1.2',
-        theme: 'dark',
+        theme: 'light',
+        align: 'right',
         text: {
           link: 'https://google.com',
           title: {
@@ -54,12 +56,13 @@ const content = {
         img: {
           src: 'assets/images/Bildschirmfoto 2021-09-09 um 14.40.21 Kopie.png',
           alt: 'image tag',
-          copyright: 'copyright here'
+          copyright: 'Image copyright here.'
         }
       },
       {
         id: '1.3',
-        theme: 'light',
+        theme: 'dark',
+        align: 'left',
         text: {
           title: {
             de: 'Dies ist der Titel 3',
@@ -73,7 +76,7 @@ const content = {
         img: {
           src: 'assets/images/20210922_CityLAB_1533.jpg',
           alt: 'image tag',
-          copyright: 'copyright here'
+          copyright: 'Image copyright here.'
         }
       },
     ]

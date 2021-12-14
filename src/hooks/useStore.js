@@ -5,10 +5,10 @@ const useStore = create((set, get) => ({
 }))
 
 export const useImageGroupStore = create((set, get) => ({
-  active: 'assets/images/20210922_CityLAB_1533.jpg',
+  active: '1.1',
   setActive: (active) => {
     set(() => ({active}))
-  }  
+  }
 }))
 
 
