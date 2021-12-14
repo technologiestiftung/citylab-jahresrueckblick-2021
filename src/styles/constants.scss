@@ -8,48 +8,13 @@ $dark-grey--6: #ECECEC;
 $dark-grey--7: #F5F5F5;
 $dark-grey--8: #FAFAFA;
 
-$notStarted: #EE8E8E;
-$started: #EA983F;
-$certified: #7FB1BC;
-$completed: #4C7D6E;
-
-
-$color-literacy: #002060;
-$color-new-classrooms: #386084;
-$color-child-labor-risk: #D77E76;
-$color-teachers: #64AEA9;
-$color-infrastructure: #F4B05D;
-$color-initiatives: #9278BC;
-
-$color-child-labor-low-label: $dark-grey--3;
-$color-child-labor-low: #F5F5F5;
-$color-child-labor-medium: #E6BAB6;
-$color-child-labor-medium-label: #c79792;
-$color-child-labor-high: $color-child-labor-risk;
-$color-child-labor-high-label: #a1514a;
-
-$midnight-blue--1: #002060;
-$midnight-blue--2: #334D80;
-$midnight-blue--3: #6679A0;
-$midnight-blue--4: #99A6BF;
-$midnight-blue--5: #CCD2DF;
-
-$color-behind-schedule: $notStarted;
-$color-on-track: #EA983F;
-$color-started: #EA983F;
-$color-completed: #4C7D6E;
-$color-certified: $certified;
-
-
-$initiative-01: #9278BC;
-$initiative-02: #D4C15D;
-$initiative-03: #52C293;
+$blue: #2F2FA2;
 
 $font-sans: 'IBM Plex Sans';
 $font-mono: 'IBM Plex Mono';
 
 // layout
-$medium-content-width: remify(660px) !default;
+$medium-content-width: remify(560px) !default;
 $large-content-width: remify(840px) !default;
 
 // spaces
