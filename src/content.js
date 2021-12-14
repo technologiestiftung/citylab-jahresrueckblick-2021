@@ -16,6 +16,22 @@ const content = {
       de: 'Digitale Verwaltung',
       en: 'Digital Administration',
     },
+    blocks: {
+      quote: {
+        text: {
+          de: 'Lorem ipsum dolor sit amet, cu ullum pertinax est, ut eos esse eripuit periculis, tamquam efficiantur.',
+          en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+        },
+        author: {
+          src: 'assets/images/author_1.jpg',
+          name: 'Niklas Kossow',
+          job: {
+            de: 'Projektmanager',
+            en: 'Project manager',
+          }
+        }
+      }
+    },
     items: [
       {
         id: '1.1',

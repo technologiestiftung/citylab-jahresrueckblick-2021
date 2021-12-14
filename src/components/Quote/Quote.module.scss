@@ -1,0 +1,27 @@
+@import '../../styles/base.scss';
+
+:local {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .quote {
+    font-family: National;
+    font-style: italic;
+  }
+  .authorWrapper {
+    display: flex;
+    font-size: $font-size-s;
+    .img {
+      border-radius: 100px;
+      width: 40px;
+      height: 40px;
+    }
+    .name {
+      font-weight: bold;
+    }
+    .job {
+      color: $dark-grey--4;
+    }
+  }
+}
