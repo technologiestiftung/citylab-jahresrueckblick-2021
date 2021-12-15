@@ -1,8 +1,13 @@
 const content = {
   intro: {
+    img: {
+      src: 'assets/images/20210922_CityLAB_1533.jpg',
+      alt: 'image tag',
+      copyright: 'Image copyright here.'
+    },
     headline: {
-      de: 'Dies ist die Überschrift des Intros.',
-      en: 'This is the headline of the intro.',
+      de: 'Dies ist die <br/> Überschrift des Intros.',
+      en: 'This is the <br/> headline of the intro.',
     }
   },
   ui: {

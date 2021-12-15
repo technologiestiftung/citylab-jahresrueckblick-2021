@@ -1,8 +1,10 @@
 import LanguageSwitch from "../../components/LanguageSwitch";
 
+import cn from 'Header.module.scss';
+
 function Header() {
   return (
-    <div>
+    <div className={cn.header}>
       <LanguageSwitch />
     </div>
   )
