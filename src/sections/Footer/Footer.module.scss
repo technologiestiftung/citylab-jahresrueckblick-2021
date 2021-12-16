@@ -3,26 +3,45 @@
 :local {
   .logos {
     display: flex;
-    width: 100vw;
+    padding: 0 20px;
+    width: calc(100vw - 40px);
     background-color: $dark-grey--6;
   }
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  .item {
+    margin-left: 10px;
+  }
   .bottom {
+    padding: 0 20px;
+    width: calc(100vw - 40px);
     display: flex;
     justify-content: space-between;
     .copyright {
       display: block;
     }
     .items {
+      margin: 10px 0;
       display: flex;
     }
   }
   .block {
-    margin-right: 40px;
+    margin: 10px 40px 10px 0;
     display: block;
     width: 150px;
 
     &.skzl {
       width: 85px;
+    }
+
+    &.tsb {
+      width: 120px;
+    }
+
+    &.citylab {
+      width: 125px;
     }
   }
   .label {

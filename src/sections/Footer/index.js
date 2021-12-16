@@ -15,15 +15,17 @@ function Footer({content, lang}) {
         ))}
       </div>
       <div className={cn.bottom}>
-          <span className={cn.copyright}>{content.copyright}</span>
+          <div className={cn.left}>
+            <span className={cn.copyright}>{content.copyright}</span>
+          </div>
           <div className={cn.items}>
             <div className={cn.item}>
-              <a href={content.privacy.href} rel="noreferrer" target="_blank">
+              <a className={cn.link} href={content.privacy.href} rel="noreferrer" target="_blank">
                 {content.privacy[lang]}
               </a>
             </div>
             <div className={cn.item}>
-              <a href={content.impressum.href} rel="noreferrer" target="_blank">
+              <a className={cn.link} href={content.impressum.href} rel="noreferrer" target="_blank">
                 {content.impressum[lang]}
               </a>
             </div>

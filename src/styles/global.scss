@@ -28,3 +28,12 @@
   max-width: $medium-content-width;
   margin: 0 auto;
 }
+
+.link {
+  text-decoration: none;
+  color: black;
+  transition: $transition-fast;
+  &:hover {
+    opacity: .5;
+  }
+}
