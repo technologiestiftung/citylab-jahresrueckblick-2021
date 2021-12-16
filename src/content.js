@@ -10,6 +10,40 @@ const content = {
       en: 'This is the <br/> headline of the intro.',
     }
   },
+  footer: {
+    copyright: '© 2021 Technologiestiftung Berlin',
+    impressum: {
+      de: 'Impressum',
+      en: 'Impressum',
+      href: 'https://www.technologiestiftung-berlin.de/de/impressum/',
+    },
+    privacy: {
+      href: 'https://www.technologiestiftung-berlin.de/de/datenschutz/',
+      de: 'Datenschutz',
+      en: 'Privacy'
+    },
+    logos: [
+      {
+        label: ' ',
+        alt: 'City Lab Berlin Logo',
+        href: 'https://citylab-berlin.org/',
+        src: 'assets/logos/citylab-logo.svg' 
+      },
+      {
+        label: 'Ein Projekt der:',
+        alt: 'Technologiestiftung Berlin Logo',
+        href: 'https://technologiestiftung-berlin.de/',
+        src: 'assets/logos/tsb-logo.svg' 
+      },
+      {
+        className: 'skzl',
+        label: 'Gefördert durch:',
+        alt: 'Senatskanzlei Berlin Logo',
+        href: 'https://www.berlin.de/rbmskzl/',
+        src: 'assets/logos/berlin-skzl-logo.svg' 
+      },
+    ]
+  },
   ui: {
     btnProject: {
       de: 'Zum Projekt',

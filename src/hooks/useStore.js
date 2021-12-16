@@ -1,7 +1,10 @@
 import create from 'zustand'
 
 const useStore = create((set, get) => ({
-  lang: 'de'
+  lang: 'de',
+  setLang: (lang) => {
+    set(() => ({lang}))
+  }
 }))
 
 export const useImageGroupStore = create((set, get) => ({
