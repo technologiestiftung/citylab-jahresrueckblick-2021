@@ -5,6 +5,10 @@ import cn from './App.module.scss';
 import content from './content';
 
 import DigitalVereint from './sections/DigitalVereint';
+import SmartCity from './sections/SmartCity';
+import StadtUndWir from './sections/StadtUndWir';
+import Unterwegs from './sections/Unterwegs';
+import HinterDenKulissen from './sections/HinterDenKulissen';
 
 import Header from './sections/Header';
 import Footer from './sections/Footer';
@@ -19,7 +23,11 @@ function App() {
     <div className={cn.app}>
       <Header />
       <Intro content={content.intro} lang={lang} />
-      <DigitalVereint lang={lang} content={content.cluster} ui={content.ui} />
+      <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />
+      <DigitalVereint lang={lang} content={content.digitalVereint} ui={content.ui} />
+      <StadtUndWir lang={lang} content={content.stadtUndWir} ui={content.ui} />
+      <HinterDenKulissen lang={lang} content={content.hinterDenKulissen} ui={content.ui} />
+      <Unterwegs lang={lang} content={content.unterwegs} ui={content.ui} />
       <Footer content={content.footer} lang={lang}/>
     </div>
   );

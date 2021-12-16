@@ -1,5 +1,5 @@
 import useStore, { useImageGroupStore } from '../../hooks/useStore'
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import cx from 'classnames';
 
 import cn from './ScrollableImages.module.scss';
@@ -17,14 +17,18 @@ function ScrollableImages({content, ui}) {
 
   const lang = useStore(langSelector);
   const active = useImageGroupStore(activeSelector);
+  const [lastActiveItem, setLastActiveItem] = useState(items[0].id);
+
   const activeItem = useMemo(() => {
-    return items.find(d => d.id === active)
-  }, [active, items])
+    const matched = items.find(d => d.id === active);
+    if (matched) setLastActiveItem(matched);
+    return matched ? matched : lastActiveItem;
+  }, [active, items, lastActiveItem]);
 
   return (
     <div className={cn.scrollContainer}>
-      <ImageGroup theme={activeItem.theme} images={items} />
-      <ImageNav theme={activeItem.theme}  images={items} />
+      <ImageGroup activeItem={activeItem} images={items} />
+      {/* <ImageNav theme={activeItem.theme}  images={items} /> */}
       {items.map(d => (
         <div key={d.id} className={cn.tileWrapper}>
           <Tile align={d.align} theme={d.theme} id={d.id}>

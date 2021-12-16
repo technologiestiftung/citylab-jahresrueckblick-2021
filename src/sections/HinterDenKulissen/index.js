@@ -1,25 +1,23 @@
 import ScrollableImages from '../../components/ScrollableImages';
-import Quote from '../../components/Quote';
+// import Quote from '../../components/Quote';
 import Paragraph from '../../components/Paragraph';
 import Headline from '../../components/Headline';
 
-import cn from './DigitalVereint.module.scss';
+import cn from './HinterDenKulissen.module.scss';
 
-function DigitalVereint({content, ui, lang}) {
+function HinterDenKulissen({content, ui, lang}) {
   return (
     <section>
       <div className={cn.wrapper}>
           <Headline lang={lang} content={content.blocks.intro.title} />
           <Paragraph lang={lang} content={content.blocks.intro.text} />
-          <Quote lang={lang} content={content.blocks.quote}/>
       </div>
       <ScrollableImages lang={lang} content={content} ui={ui}/>
-      <div className={cn.wrapper}>
+      {/* <div className={cn.wrapper}>
           <Paragraph lang={lang} content={content.blocks.intro} />
-          <Quote lang={lang} content={content.blocks.quote}/>
-      </div>
+      </div> */}
     </section>
   )
 }
 
-export default DigitalVereint;
+export default HinterDenKulissen;
