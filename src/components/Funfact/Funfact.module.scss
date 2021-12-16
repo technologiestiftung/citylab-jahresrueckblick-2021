@@ -1,0 +1,35 @@
+@import '../../styles/base.scss';
+:local {
+  .wrapper {
+    padding: 15px;
+    display: flex;
+    background-color: $blue--1;
+    border-radius: 15px;
+    max-width: $medium-content-width;
+    margin: 60px auto;
+  }
+
+  .text {
+    margin-left: 10px;
+    width: 100%;
+    color: $blue;
+    letter-spacing: 150%;
+    font-size: $font-size-l;
+  }
+
+  .iconWrapper {
+    height: 31px;
+    width: 32px;
+    padding: 3px;
+    background-color: white;
+    display: flex;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      width: 20px;  
+      height: 20px;
+    }
+  }
+}

@@ -52,7 +52,6 @@ const content = {
       en: 'View project',
     }
   },
-  // Smart City
   smartCity: {
     topic: {
       de: 'Smart City',
@@ -67,8 +66,12 @@ const content = {
         text: {
           de: 'Berlin entwickelt im Programm „Modellprojekte Smart Cities“ des BMI eine neue Smart City-Strategie, bei der Partizipation, Menschen und Werte im Vordergrund stehen. Die Strategie entsteht deshalb im Dialog mit Berlins diverser Stadtgesellschaft – weg von einem rein technologischen Fokus, hin zu Mitgestaltung und Einbeziehung. Im Auftrag der Senatskanzlei koordinieren und begleiten wir dieses breit angelegte Projekt in mehreren Phasen.',
           en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness <br/> <br/> No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.'
-        }
-      }
+        },
+      },
+      funfact: {
+        de: `Das Symposium war nicht die einzige Veranstaltung in 2021. Über <strong>2700 Teilnehmende</strong> begrüßten wir bei unseren Events im vergangenen Jahr.`,
+        en: `Funfact in english!`,
+      },
     },
     items: [
       {
@@ -76,7 +79,13 @@ const content = {
         theme: 'dark',
         align: 'left',
         text: {
-          link: 'https://google.com',
+          links: [
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+          ], 
           title: {
             de: 'Strategieprozess',
             en: 'Strategy process',
@@ -97,7 +106,18 @@ const content = {
         theme: 'light',
         align: 'left',
         text: {
-          link: 'https://google.com',
+          links: [
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+          ], 
           title: {
             de: 'Symposium ‘Redefining the Smart City',
             en: 'Symposium ‘Redefining the Smart City',
@@ -144,7 +164,11 @@ const content = {
             en: 'Project manager',
           }
         }
-      }
+      },
+      funfact: {
+        de: `Frischen Wind bringt auch unser Handbuch Öffentliches Gestalten in die Verwaltung. 2021 wurde es <strong>227 Mal verschickt</strong>.`,
+        en: `Funfact in english!`,
+      },
     },
     items: [
       {
@@ -152,7 +176,18 @@ const content = {
         theme: 'dark',
         align: 'left',
         text: {
-          link: 'https://google.com',
+          links: [
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+          ], 
           title: {
             de: 'Digitalwerkstatt Verwaltung',
             en: 'Digital workshop for the administration',
@@ -173,7 +208,18 @@ const content = {
         theme: 'light',
         align: 'right',
         text: {
-          link: 'https://google.com',
+          links: [
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+          ], 
           title: {
             de: 'Service Agenten Schulung',
             en: 'Service agents training',
@@ -214,7 +260,18 @@ const content = {
         theme: 'light',
         align: 'right',
         text: {
-          link: 'https://google.com',
+          links: [
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+          ], 
           title: {
             de: 'Prototypenwerkstatt',
             en: 'Prototyping workshop',
@@ -261,7 +318,11 @@ const content = {
             en: 'Project manager',
           }
         }
-      }
+      },
+      funfact: {
+        de: `2021 wuchsen nicht nur die Bäume – auch unser Lab ist von <strong>18 auf 26 Mitarbeiter:innen</strong> gewachsen`,
+        en: `Funfact in english!`,
+      },
     },
     items: [
       {
@@ -269,7 +330,18 @@ const content = {
         theme: 'dark',
         align: 'left',
         text: {
-          link: 'https://google.com',
+          links: [
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+          ],
           title: {
             de: 'Digital Vereint',
             en: 'Digital Unites',
@@ -290,7 +362,18 @@ const content = {
         theme: 'light',
         align: 'right',
         text: {
-          link: 'https://google.com',
+          links: [
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+          ],
           title: {
             de: 'Aktionsfeld Open Source + Podcast',
             en: 'Aktionsfeld Open Source + Podcast',
@@ -331,7 +414,18 @@ const content = {
         theme: 'dark',
         align: 'right',
         text: {
-          link: 'https://google.com',
+          links: [
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+          ],
           title: {
             de: 'Summer School',
             en: 'Summer School',
@@ -352,7 +446,18 @@ const content = {
         theme: 'light',
         align: 'right',
         text: {
-          link: 'https://google.com',
+          links: [
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+          ],
           title: {
             de: 'Gieß den Kiez & QTrees',
             en: 'Gieß den Kiez & QTrees',
@@ -385,7 +490,11 @@ const content = {
           de: 'Hinter den Kulissen wurde 2021 in unserem Lab umgebaut, kuratiert, gewerkelt und gestöpselt. Unsere neue Ausstellung eröffnete, Sensoren wurden in der Werkstatt gelötet, unsere Webseite bekam einen neuen Anstrich und so lange unser Lab “under construction” war, begrüßten wir euch digital in unserer Pixelwelt. ',
           en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness <br/> <br/> No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.'
         }
-      }
+      },
+      funfact: {
+        de: `Damit Berlin immer up to date bleibt, twittern wir was das Zeug hält. <strong>575 Tweets</strong> setzen wir in 2021 ab.`,
+        en: `Funfact in english!`,
+      },
     },
     items: [
       {
@@ -393,7 +502,18 @@ const content = {
         theme: 'dark',
         align: 'left',
         text: {
-          link: 'https://google.com',
+          links: [
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+          ],
           title: {
             de: 'Sommerfest',
             en: 'Summer Festival',
@@ -414,7 +534,18 @@ const content = {
         theme: 'light',
         align: 'right',
         text: {
-          link: 'https://google.com',
+          links: [
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+          ],
           title: {
             de: 'Pixelworld',
             en: 'Pixelworld',
@@ -475,7 +606,18 @@ const content = {
         theme: 'dark',
         align: 'left',
         text: {
-          link: 'https://google.com',
+          links: [
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+          ],
           title: {
             de: 'Barcelona - Smart City World Expo',
             en: 'Barcelona - Smart City World Expo',
@@ -496,7 +638,18 @@ const content = {
         theme: 'light',
         align: 'right',
         text: {
-          link: 'https://google.com',
+          links: [
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+            {
+              de: 'Link titel Deutsch',
+              en: 'Link Title English',
+              href: 'https://google.com',
+            },
+          ],
           title: {
             de: 'Creative Bureaucracy Festival',
             en: 'Creative Bureaucracy Festival',

@@ -4,8 +4,10 @@ import Paragraph from '../../components/Paragraph';
 import Headline from '../../components/Headline';
 
 import cn from './SmartCity.module.scss';
+import Funfact from '../../components/Funfact';
 
 function SmartCity({content, ui, lang}) {
+  console.log(content.blocks)
   return (
     <section>
       <div className={cn.wrapper}>
@@ -13,9 +15,7 @@ function SmartCity({content, ui, lang}) {
           <Paragraph lang={lang} content={content.blocks.intro.text} />
       </div>
       <ScrollableImages lang={lang} content={content} ui={ui}/>
-      {/* <div className={cn.wrapper}>
-          <Paragraph lang={lang} content={content.blocks.intro} />
-      </div> */}
+      <Funfact content={content.blocks.funfact} lang={lang}/>
     </section>
   )
 }

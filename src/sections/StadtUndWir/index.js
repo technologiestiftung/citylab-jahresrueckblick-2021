@@ -2,6 +2,7 @@ import ScrollableImages from '../../components/ScrollableImages';
 // import Quote from '../../components/Quote';
 import Paragraph from '../../components/Paragraph';
 import Headline from '../../components/Headline';
+import Funfact from '../../components/Funfact';
 
 import cn from './StadtUndWir.module.scss';
 
@@ -13,6 +14,7 @@ function StadtUndWir({content, ui, lang}) {
           <Paragraph lang={lang} content={content.blocks.intro.text} />
       </div>
       <ScrollableImages lang={lang} content={content} ui={ui}/>
+      <Funfact content={content.blocks.funfact} lang={lang}/>
       {/* <div className={cn.wrapper}>
           <Paragraph lang={lang} content={content.blocks.intro} />
       </div> */}

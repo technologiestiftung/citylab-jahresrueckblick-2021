@@ -1,0 +1,31 @@
+@import '../../styles/base.scss';
+:local {
+  .link {
+    padding: 5px 7px 5px 10px;
+    background-color: $blue--1;
+    border-radius: 100px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    margin-right: 10px;
+    color: $blue;
+
+    &.light {
+      background-color: white;
+    }
+  }
+
+  .iconWrapper {
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    // padding: 5px;
+    margin-left: 5px;
+    background-color: $blue;
+
+    svg {
+      width: 20px;
+      height: 8px;
+    }
+  }
+}
