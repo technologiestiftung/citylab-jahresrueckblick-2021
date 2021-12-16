@@ -2,18 +2,18 @@ import cx from 'classnames';
 
 import cn from './ImageGroup.module.scss';
 
-import { useImageGroupStore } from '../../../hooks/useStore'
+// import { useImageGroupStore } from '../../../hooks/useStore'
 
-const activeSelector = (s) => s.active;
+// const activeSelector = (s) => s.active;
 
 function ImageGroup({images, activeItem}) {
 
-  const active = useImageGroupStore(activeSelector);
+  // const active = useImageGroupStore(activeSelector);
 
   return (
     <div className={cn.imagesWrapper}>
-      {images.map(d => (
-        <div className={cn.imageWrapper}>
+      {images.map((d,i) => (
+        <div key={`image-key-${i}`} className={cn.imageWrapper}>
           <img 
             key={d.id} 
             className={cx(cn.image, {[cn.active]: activeItem.id === d.id})} 

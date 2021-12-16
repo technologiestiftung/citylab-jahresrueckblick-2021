@@ -368,7 +368,7 @@ const content = {
       },
     ]
   },
-  hinterDenKulissen: {
+  frischerWind: {
     topic: {
       de: 'Frischer Wind für die Verwaltung',
       en: 'Fresh ideas for the administration',

@@ -5,7 +5,7 @@ import cx from 'classnames';
 import cn from './ScrollableImages.module.scss';
 
 import ImageGroup from './ImageGroup';
-import ImageNav from './ImageNav';
+// import ImageNav from './ImageNav';
 import Tile from './Tile';
 import Button from '../Button';
 
