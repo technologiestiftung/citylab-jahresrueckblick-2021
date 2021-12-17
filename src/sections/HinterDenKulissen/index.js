@@ -1,3 +1,5 @@
+import cx from 'classnames';
+
 import ScrollableImages from '../../components/ScrollableImages';
 // import Quote from '../../components/Quote';
 import Paragraph from '../../components/Paragraph';
@@ -9,12 +11,12 @@ import cn from './HinterDenKulissen.module.scss';
 function HinterDenKulissen({content, ui, lang}) {
   return (
     <section>
-      <div className={cn.wrapper}>
-          <Headline lang={lang} content={content.blocks.intro.title} />
-          <Paragraph lang={lang} content={content.blocks.intro.text} />
+      <div className={cx(cn.wrapper, cn.layoutWrapper)}>
+        <Headline lang={lang} content={content.blocks.intro.title} />
+        <Paragraph lang={lang} content={content.blocks.intro.text} />
+        <Funfact content={content.blocks.funfact} lang={lang}/>
       </div>
       <ScrollableImages lang={lang} content={content} ui={ui}/>
-      <Funfact content={content.blocks.funfact} lang={lang}/>
 
       {/* <div className={cn.wrapper}>
           <Paragraph lang={lang} content={content.blocks.intro} />

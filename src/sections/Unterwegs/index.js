@@ -5,10 +5,12 @@ import Headline from '../../components/Headline';
 
 import cn from './Unterwegs.module.scss';
 
+import cx from 'classnames';
+
 function Unterwegs({content, ui, lang}) {
   return (
     <section>
-      <div className={cn.wrapper}>
+      <div className={cx(cn.wrapper, cn.layoutWrapper)}>
         <Headline lang={lang} content={content.blocks.intro.title} />
         <Paragraph lang={lang} content={content.blocks.intro.text} />
       </div>

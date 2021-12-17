@@ -39,10 +39,13 @@ function ScrollableImages({content, ui}) {
             </div>
             <h3 className={cn.title}>{d.text.title[lang]}</h3>
             <p className={cn.text}>{d.text.paragraph[lang]}</p>
+            {d.text?.links?.length > 0 && <h3  className={cn.subtitle}>{ui.moreLinks[lang]}</h3>}
             {d.text?.links?.length > 0 && <div className={cn.linkWrapper}>
+              <>
               {d.text?.links.map(link => (
                 <Link theme={d.theme} content={link} lang={lang} />
               ))}
+              </>
             </div>}
             {/* <Button theme={d.theme} to={d.text.link} label={ui.btnProject[lang]}/> */}
           </Tile>

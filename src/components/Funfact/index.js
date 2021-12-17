@@ -3,7 +3,6 @@ import cn from './Funfact.module.scss';
 import {ReactComponent as SmileIcon} from '../../icons/smile.svg';
 
 function Funfact({content, lang}) {
-  console.log('funfact', content)
   return (
     <div className={cn.wrapper}>
       <div className={cn.iconWrapper}>

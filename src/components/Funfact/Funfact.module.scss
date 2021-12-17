@@ -4,16 +4,16 @@
     padding: 15px;
     display: flex;
     background-color: $blue--1;
-    border-radius: 15px;
+    border-radius: 0px;
     max-width: $medium-content-width;
-    margin: 60px auto;
+    margin: 40px auto;
   }
 
   .text {
     margin-left: 10px;
     width: 100%;
     color: $blue;
-    letter-spacing: 150%;
+    line-height: 150%;
     font-size: $font-size-l;
   }
 

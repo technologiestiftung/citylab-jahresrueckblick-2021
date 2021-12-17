@@ -2,6 +2,8 @@
 :local {
   .headline {
     line-height: 120%;
+    margin: 60px auto 20px auto;
     font-size: $font-size-xxl;
+    max-width: $medium-content-width;
   }
 }

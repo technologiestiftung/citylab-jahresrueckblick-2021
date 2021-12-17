@@ -1,13 +1,21 @@
 const content = {
+  outtro: {
+    de: 'Das war’s mit unserem Jahresrückblick 2021! Wir schauen auf ein abwechslungsreiches Jahr zurück, das genauso vielfältig war wie Berlin selbst! Nun freuen wir uns auf 2022 und viele gemeinsame Projekte mit der Berliner Verwaltung und der gesamten Stadtgesellschaft. <br/> <br>Euer CityLAB Berlin der Herzen',
+    en: 'Outtro english'
+  },
   intro: {
     img: {
-      src: 'assets/images/20210922_CityLAB_1533.jpg',
+      src: 'assets/images/intro.jpg',
       alt: 'image tag',
       copyright: 'Image copyright here.'
     },
     headline: {
-      de: 'Dies ist die <br/> Überschrift des Intros.',
-      en: 'This is the <br/> headline of the intro.',
+      de: 'Einleitung',
+      en: 'Introduction',
+    },
+    text: {
+      de: '2021 liegt hinter uns. Ein Jahr, das geprägt war vom griechischen Alphabet, digitalem Arbeiten, verschiedensten Lockdowns, Wahlparties und dem Ende der Ära Merkel. <br/> <br/> Doch während sich 2021 pandemiebedingt manchmal wie eine Wiederholung von 2020 anfühlte, stand das CityLAB Berlin nicht still, sondern boosterte Berlin digital: <br/> <br/> Während Deutschland über Brückenlockdowns diskutierte, bauten wir digitale Brücken mit Digital Vereint. Als die Ever Given den Suezkanal verstopfte, lösten wir Digitalblockaden in der Stadt und während Berlin gespannt der EM folgte, spielten wir den Beteiligungsball der Smart City an die Stadtgesellschaft. <br/> <br/> Digital ins Gepäck nahmen wir euch auch mit auf unsere Reisen -  aufs Creative Bureaucracy Festival, zu den Digital Days nach Wien oder nach Barcelona auf die Smart City World Expo. <br/> <br/> Aber auch zu Hause blieb es spannend  – denn ihr hattet die Qual der Wahl: Ob Ampel, Jamaica, Smart City-Beteiligungsprozess oder Digitalwerkstatt Verwaltung: 2021 stand ganz unter dem Motto der Partizipation. <br/> <br/> Was bei uns das Jahr über noch so los war zeigen wir euch in unserem Scrollytelling. <br/> <br/> Denn während viele im Internet trollen, lassen wir euch lieber scrollen! 😉 <br/></br> Viel Spaß bei unserem Jahresrückblick 2021!',
+      en: '2021 is over. A year characterized by the Greek alphabet, digital working, various lockdowns, election parties and the end of the Merkel era.<br/><br/>But while 2021 sometimes felt like a repeat of 2020 due to the pandemic, CityLAB Berlin did not stand still, but boostered Berlin digitally:<br/><br/>While Germany discussed bridge blockdowns, we built digital bridges with Digital Vereint. When the Ever Given clogged the Suez Canal, we solved digital blockades in the city and while Berlin was following the European Championship excitedly, we played the Smart City participation ball to the urban society.We also took you with us on our digital travels - to the Creative Bureaucracy Festival, to the Digital Days in Vienna and to the Smart City World Expo in Barcelona.<br/><br/>But it was also exciting at home - because you were given the choice: whether traffic lights, Jamaica, Smart City participation process or digital workshop on administration: 2021 was all about participation.<br/><br/>In our scrollytelling, we show you what else was going on with us during the year.Because while many people troll the internet, we prefer to let you scroll!<br/><br/>Enjoy our review of the year 2021!'
     }
   },
   footer: {
@@ -50,6 +58,10 @@ const content = {
     btnProject: {
       de: 'Zum Projekt',
       en: 'View project',
+    },
+    moreLinks: {
+      de: 'Weitere Links:',
+      en: 'More links:',
     }
   },
   smartCity: {
@@ -81,9 +93,9 @@ const content = {
         text: {
           links: [
             {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
+              de: 'Mehr Infos',
+              en: 'More info',
+              href: 'https://www.notion.so/politicsfortomorrow/Berlin-lebenswert-smart-bec3fb01ae3b4d33bd2c1582fc1eb06f ',
             },
           ], 
           title: {
@@ -96,26 +108,21 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/20210922_CityLAB_1533.jpg',
+          src: 'assets/images/1.1-smart-city-strategieprozess.png',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
       },
       {
         id: '1.2',
-        theme: 'light',
+        theme: 'dark',
         align: 'left',
         text: {
           links: [
             {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
-            },
-            {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
+              de: 'Zur Video Playlist',
+              en: 'Video Playlist',
+              href: 'https://www.youtube.com/watch?v=KB5eVWziMGo',
             },
           ], 
           title: {
@@ -128,7 +135,7 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/Bildschirmfoto 2021-09-09 um 14.40.21 Kopie.png',
+          src: 'assets/images/1.2-symposium.png',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
@@ -176,18 +183,7 @@ const content = {
         theme: 'dark',
         align: 'left',
         text: {
-          links: [
-            {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
-            },
-            {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
-            },
-          ], 
+          links: [], 
           title: {
             de: 'Digitalwerkstatt Verwaltung',
             en: 'Digital workshop for the administration',
@@ -198,28 +194,17 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/20210922_CityLAB_1533.jpg',
+          src: 'assets/images/2.1-digitalwerkstatt-verwaltung.jpg',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
       },
       {
         id: '2.2',
-        theme: 'light',
+        theme: 'dark',
         align: 'right',
         text: {
-          links: [
-            {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
-            },
-            {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
-            },
-          ], 
+          links: [], 
           title: {
             de: 'Service Agenten Schulung',
             en: 'Service agents training',
@@ -230,7 +215,7 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/Bildschirmfoto 2021-09-09 um 14.40.21 Kopie.png',
+          src: 'assets/images/2.2-service-agenten-schulung.png',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
@@ -250,26 +235,21 @@ const content = {
           }
         },
         img: {
-          src: 'assets/images/20210922_CityLAB_1533.jpg',
+          src: 'assets/images/2.3-afs-dashboard.jpg',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
       },
       {
         id: '2.4',
-        theme: 'light',
+        theme: 'dark',
         align: 'right',
         text: {
           links: [
             {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
-            },
-            {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
+              de: 'Mehr Infos',
+              en: 'More info',
+              href: 'https://citylab-berlin.org/de/blog/das-wissen-der-berliner-verwaltung-liegt-verteilt-in-tausenden-excel-dateien/ ',
             },
           ], 
           title: {
@@ -282,7 +262,7 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/Bildschirmfoto 2021-09-09 um 14.40.21 Kopie.png',
+          src: 'assets/images/2.4-prototypen-werkstatt.png',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
@@ -332,14 +312,9 @@ const content = {
         text: {
           links: [
             {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
-            },
-            {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
+              de: 'Zum Projekt',
+              en: 'The project',
+              href: 'https://www.digital-vereint.berlin/de',
             },
           ],
           title: {
@@ -352,26 +327,26 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/20210922_CityLAB_1533.jpg',
+          src: 'assets/images/3.1-digital-vereint.jpg',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
       },
       {
         id: '3.2',
-        theme: 'light',
+        theme: 'dark',
         align: 'right',
         text: {
           links: [
             {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
+              de: 'Zum Aktionsfeld',
+              en: 'Action field',
+              href: 'https://freiwilligenhauptstadt.berlin/aktionsfelder/open-source',
             },
             {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
+              de: 'Zum Podcast',
+              en: 'Podcast',
+              href: 'https://radiocitylab.podigee.io',
             },
           ],
           title: {
@@ -384,7 +359,7 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/Bildschirmfoto 2021-09-09 um 14.40.21 Kopie.png',
+          src: 'assets/images/3.2-aktionsfeld.jpg',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
@@ -394,6 +369,13 @@ const content = {
         theme: 'dark',
         align: 'left',
         text: {
+          links: [
+            {
+              de: 'Zum Projekt',
+              en: 'Project',
+              href: 'https://stadtpuls.com ',
+            },
+          ],
           title: {
             de: 'Stadtpuls',
             en: 'Stadtpuls',
@@ -404,7 +386,28 @@ const content = {
           }
         },
         img: {
-          src: 'assets/images/20210922_CityLAB_1533.jpg',
+          src: 'assets/images/3.3-stadtpuls.png',
+          alt: 'image tag',
+          copyright: 'Image copyright here.'
+        }
+      },
+      {
+        id: '3.4',
+        theme: 'dark',
+        align: 'right',
+        text: {
+          links: [],
+          title: {
+            de: 'Summer School',
+            en: 'Summer School',
+          },
+          paragraph: {
+            de: 'Zwei Wochen lang widmeten sich Student:innen verschiedener Berliner Hochschulen in einer digitalen Summer School dem Thema Smart City. Dabei wurden experimentelle Prototypen konzipiert und gebaut und der Frage nachgegangen, welche ungenutzten Potenziale eng verwobene, digital gestützte, ökologische und soziale Systeme bieten.',
+            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+          },
+        },
+        img: {
+          src: 'assets/images/3.4-summer-school.jpg',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
@@ -416,46 +419,14 @@ const content = {
         text: {
           links: [
             {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
+              de: 'Projekt: Giess den Kiez',
+              en: 'Project: Giess den Kiez',
+              href: 'https://giessdenkiez.de/',
             },
             {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
-            },
-          ],
-          title: {
-            de: 'Summer School',
-            en: 'Summer School',
-          },
-          paragraph: {
-            de: 'Zwei Wochen lang widmeten sich Student:innen verschiedener Berliner Hochschulen in einer digitalen Summer School dem Thema Smart City. Dabei wurden experimentelle Prototypen konzipiert und gebaut und der Frage nachgegangen, welche ungenutzten Potenziale eng verwobene, digital gestützte, ökologische und soziale Systeme bieten.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
-          },
-        },
-        img: {
-          src: 'assets/images/20210922_CityLAB_1533.jpg',
-          alt: 'image tag',
-          copyright: 'Image copyright here.'
-        }
-      },
-      {
-        id: '3.4',
-        theme: 'light',
-        align: 'right',
-        text: {
-          links: [
-            {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
-            },
-            {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
+              de: 'Projekt: QTrees',
+              en: 'Project: Giess den Kiez',
+              href: 'https://citylab-berlin.org/de/projects/qtrees/',
             },
           ],
           title: {
@@ -468,7 +439,7 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/Bildschirmfoto 2021-09-09 um 14.40.21 Kopie.png',
+          src: 'assets/images/3.5-giess-den-kiez.jpg',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
@@ -504,14 +475,9 @@ const content = {
         text: {
           links: [
             {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
-            },
-            {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
+              de: 'Zur Video Playlist',
+              en: 'Video Playlist',
+              href: 'https://www.youtube.com/watch?v=v9OL3u46jnU&list=PLRIKlbncTSl8ox4cymmvF5thOMUKoK6oq',
             },
           ],
           title: {
@@ -524,26 +490,21 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/20210922_CityLAB_1533.jpg',
+          src: 'assets/images/4.1-sommerfest.png',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
       },
       {
         id: '4.2',
-        theme: 'light',
+        theme: 'dark',
         align: 'right',
         text: {
           links: [
             {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
-            },
-            {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
+              de: 'Zum Projekt',
+              en: 'Project Page',
+              href: 'https://citylab-berlin.org/de/projects/pixelwelt/ ',
             },
           ],
           title: {
@@ -556,7 +517,7 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/Bildschirmfoto 2021-09-09 um 14.40.21 Kopie.png',
+          src: 'assets/images/4.2-pixelworld.png',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
@@ -566,6 +527,13 @@ const content = {
         theme: 'dark',
         align: 'left',
         text: {
+          links: [
+            {
+              de: 'Mehr Infos',
+              en: 'More infos',
+              href: 'https://citylab-berlin.org/de/exhibition/ ',
+            }
+          ],
           title: {
             de: 'Ausstellung',
             en: 'Exhibition',
@@ -576,7 +544,7 @@ const content = {
           }
         },
         img: {
-          src: 'assets/images/20210922_CityLAB_1533.jpg',
+          src: 'assets/images/4.3-ausstellung.jpg',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
@@ -608,14 +576,9 @@ const content = {
         text: {
           links: [
             {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
-            },
-            {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
+              de: 'Zur Fotogalerie',
+              en: 'Photo galery',
+              href: 'https://www.flickr.com/photos/182217318@N05/sets/72157720180665142/ ',
             },
           ],
           title: {
@@ -628,26 +591,26 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/20210922_CityLAB_1533.jpg',
+          src: 'assets/images/5.1-smart-city-world-expo.jpg',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
       },
       {
         id: '5.2',
-        theme: 'light',
+        theme: 'dark',
         align: 'right',
         text: {
           links: [
             {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
+              de: 'Video Best Practices',
+              en: 'Video Best Practices',
+              href: 'https://creativebureaucracy.org/discover/videos/citizen-initiatives-ppps-or-centralised-governance-best-practices-from-smart-cities-around-the-world/ ',
             },
             {
-              de: 'Link titel Deutsch',
-              en: 'Link Title English',
-              href: 'https://google.com',
+              de: 'Video Roundtable',
+              en: 'Video Roundtable',
+              href: 'https://creativebureaucracy.org/discover/videos/governance-in-smart-cities-international-perspectives/ ',
             },
           ],
           title: {
@@ -655,12 +618,12 @@ const content = {
             en: 'Creative Bureaucracy Festival',
           },
           paragraph: {
-            de: 'Im Rahmen des Creative Bureaucracy Festivals bespielten wir den Smart City Governance Track und diskutierten mit verschiedenen internationalen Partner:innen, welches Potenzial verschiedene Governance Modelle für die Smart City Berlin haben. Die Highlights findet ihr auf YouTube.',
+            de: 'Im Rahmen des Creative Bureaucracy Festivals bespielten wir den Smart City Governance Track und diskutierten mit verschiedenen internationalen Partner:innen, welches Potenzial verschiedene Governance Modelle für die Smart City Berlin haben. Die Highdarks findet ihr auf YouTube.',
             en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
           },
         },
         img: {
-          src: 'assets/images/Bildschirmfoto 2021-09-09 um 14.40.21 Kopie.png',
+          src: 'assets/images/5.2-creative-bureaucracy-festival.png',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }
@@ -670,6 +633,13 @@ const content = {
         theme: 'dark',
         align: 'left',
         text: {
+          links: [
+            {
+              de: 'Zum Video',
+              en: 'Video',
+              href: 'https://www.smartcountry.berlin/de/programm/programmüberblick/',
+            },
+          ],
           title: {
             de: 'Smart Country Convention',
             en: 'Smart Country Convention',
@@ -680,7 +650,7 @@ const content = {
           }
         },
         img: {
-          src: 'assets/images/20210922_CityLAB_1533.jpg',
+          src: 'assets/images/5.2-smart-country-convention.png',
           alt: 'image tag',
           copyright: 'Image copyright here.'
         }

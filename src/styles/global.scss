@@ -13,22 +13,27 @@
   src: local('National'), url(../fonts/National-RegularItalic.woff2) format('woff2');
   font-style: italic;
 }
-
 .App {
   font-family: $font-sans;
 }
-
+.layoutWrapper {
+  @media screen and (max-width: $break-phablet-min) {
+    width: calc(100vw - 30px) !important;
+    margin: 0 auto;
+  }
+}
 .filterGrp {
   display: flex;
   width: 47%;
   justify-content: space-between;
 }
-
+.layoutMargin {
+  margin: 60px 0;
+}
 .singleCol {
   max-width: $medium-content-width;
   margin: 0 auto;
 }
-
 .link {
   text-decoration: none;
   color: black;

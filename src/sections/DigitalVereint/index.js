@@ -7,7 +7,7 @@ import cn from './DigitalVereint.module.scss';
 
 function DigitalVereint({content, ui, lang}) {
   return (
-    <section>
+    <section className={cn.layoutWrapper}>
       <div className={cn.wrapper}>
           <Headline lang={lang} content={content.blocks.intro.title} />
           <Paragraph lang={lang} content={content.blocks.intro.text} />
