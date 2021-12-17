@@ -15,18 +15,30 @@ import HinterDenKulissen from './sections/HinterDenKulissen';
 import Header from './sections/Header';
 import Footer from './sections/Footer';
 
+import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 import Paragraph from './components/Paragraph';
 import Headline from './components/Headline';
 
 const langSelector = (s) => s.lang;
 
+const getNavItems = () => {
+  const keys = ['smartCity', 'frischerWind', 'stadtUndWir', 'hinterDenKulissen', 'unterwegs']
+  return keys.map(d => ({
+    id: d,
+    topic: content[d].topic,
+    bubbles: content[d].items.map(d => (d.text.title))
+  }))
+}
+
 function App() {
   const lang = useStore(langSelector);
+  const navItems = getNavItems();
   return (
     <div className={cn.app}>
       <Header />
       <Intro content={content.intro} lang={lang} />
+      <Navbar items={navItems} lang={lang}/>
       <section className={cn.layoutWrapper}>
         <Headline lang={lang} content={content.intro.headline} />
         <Paragraph lang={lang} content={content.intro.text} />

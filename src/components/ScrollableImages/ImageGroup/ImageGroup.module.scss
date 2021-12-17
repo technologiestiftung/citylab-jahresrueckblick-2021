@@ -15,10 +15,14 @@
     bottom: 5px;
     left: 5px;
     font-size: $font-size-xs;
-    opacity: .5;
+    opacity: 0;
 
     &.dark {
       color: white;
+    }
+
+    &.active {
+      opacity: .75;
     }
   }
   .image {

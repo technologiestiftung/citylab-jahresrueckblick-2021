@@ -7,7 +7,7 @@ const content = {
     img: {
       src: 'assets/images/intro.jpg',
       alt: 'image tag',
-      copyright: 'Image copyright here.'
+      copyright: ''
     },
     headline: {
       de: 'Einleitung',
@@ -50,7 +50,7 @@ const content = {
         label: 'Gefördert durch:',
         alt: 'Senatskanzlei Berlin Logo',
         href: 'https://www.berlin.de/rbmskzl/',
-        src: 'assets/logos/berlin-skzl-logo.svg' 
+        src: 'assets/logos/berlin-skzl-logo.png' 
       },
     ]
   },
@@ -110,7 +110,7 @@ const content = {
         img: {
           src: 'assets/images/1.1-smart-city-strategieprozess.png',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: ''
         }
       },
       {
@@ -122,7 +122,7 @@ const content = {
             {
               de: 'Zur Video Playlist',
               en: 'Video Playlist',
-              href: 'https://www.youtube.com/watch?v=KB5eVWziMGo',
+              href: 'https://youtube.com/playlist?list=PLRIKlbncTSl-BGkz761lQf7sRcLPBN-YU',
             },
           ], 
           title: {
@@ -137,7 +137,7 @@ const content = {
         img: {
           src: 'assets/images/1.2-symposium.png',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: ''
         }
       },
     ]
@@ -196,7 +196,7 @@ const content = {
         img: {
           src: 'assets/images/2.1-digitalwerkstatt-verwaltung.jpg',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: '© Florian Reichert'
         }
       },
       {
@@ -230,14 +230,14 @@ const content = {
             en: 'AfS Dashboard',
           },
           paragraph: {
-            de: 'In vielen Bereichen der Berliner Verwaltung werden zahlreiche Daten zu diversen Leistungen erhoben und gespeichert, doch mangelt es an einer einheitlichen Darstellungsmethode dieser Daten. Wir unterstützten das Amt für Statistik (AfS) und die Senatskanzlei bei der Entwicklung einer zentralen Dashboardlösung, die in unterschiedlichen Verwaltungsbereichen und Kontexten zum Einsatz kommen könnte.Daten könnten dadurch von diversen Zielgruppen präsentiert und zugänglich gemacht werden.',
+            de: 'In vielen Bereichen der Berliner Verwaltung werden zahlreiche Daten zu diversen Leistungen erhoben und gespeichert, doch mangelt es an einer einheitlichen Darstellungsmethode dieser Daten. Wir unterstützten das Amt für Statistik (AfS) und die Senatskanzlei bei der Entwicklung einer zentralen Dashboardlösung, die in unterschiedlichen Verwaltungsbereichen und Kontexten zum Einsatz kommen könnte. Daten könnten dadurch von diversen Zielgruppen präsentiert und zugänglich gemacht werden.',
             en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
           }
         },
         img: {
           src: 'assets/images/2.3-afs-dashboard.jpg',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: '© Florian Reichert'
         }
       },
       {
@@ -257,14 +257,14 @@ const content = {
             en: 'Prototyping workshop',
           },
           paragraph: {
-            de: 'Im Rahmen der Prototypenwerkstatt unterstützten wir die Berliner Verwaltung bei der Digitalisierung von IT-Kleinstverfahren. Hierbei werden in Kooperation mit dem Berliner IT-Dienstleistungszentrum (ITDZ) digitale Prototypen entwickelt, die bei der Ablöse von hunderten IT-Kleinstverfahren der Berliner Verwaltung unterstützen. Die nachhaltige Vermittlung von Methodenkompetenzen in der digitalen Verwaltung sowie Empfehlungen bezüglich der Verbesserung von Prozessen runden den Prozeß ab. Das Vorgehen nutzt agile Arbeitsprozesse, in dem Prototypen iterativ und in enger Abstimmung mit den beteiligten Akteur:innen entwickelt werden.',
+            de: 'Im Rahmen der Prototypenwerkstatt unterstützten wir die Berliner Verwaltung bei der Digitalisierung von IT-Kleinstverfahren. Hierbei werden in Kooperation mit dem Berliner IT-Dienstleistungszentrum (ITDZ) digitale Prototypen entwickelt, die bei der Ablöse von hunderten IT-Kleinstverfahren der Berliner Verwaltung unterstützen. <br/> Die nachhaltige Vermittlung von Methodenkompetenzen in der digitalen Verwaltung sowie Empfehlungen bezüglich der Verbesserung von Prozessen runden den Prozeß ab. <br/> Das Vorgehen nutzt agile Arbeitsprozesse, in dem Prototypen iterativ und in enger Abstimmung mit den beteiligten Akteur:innen entwickelt werden.',
             en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
           },
         },
         img: {
           src: 'assets/images/2.4-prototypen-werkstatt.png',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: ''
         }
       },
     ]
@@ -322,14 +322,14 @@ const content = {
             en: 'Digital Unites',
           },
           paragraph: {
-            de: 'Zu Beginn des Jahres launchten wir Digital Vereint. Ein Angebot für Berliner Vereine, Initiativen und Non-Profit-Organisationen. Die Plattform bietet nicht nur kostenfreie Open Source Services für die digitale Zusammenarbeit, sondern auch Möglichkeiten zur Vernetzung und Informationen zu digitalen Themen. Mit über 400 Teilnehmenden an unseren Workshops und 170 Vereine, die unsere Tools nutzen, können wir seit dem stolz auf eine gewachsene und großartige Community blicken und auf ein Projekt, das die Vereinsarbeit auch weiterhin nachhaltig bereichern wird.',
+            de: 'Zu Beginn des Jahres launchten wir Digital Vereint. Ein Angebot für Berliner Vereine, Initiativen und Non-Profit-Organisationen. Die Plattform bietet nicht nur kostenfreie Open Source Services für die digitale Zusammenarbeit, sondern auch Möglichkeiten zur Vernetzung und Informationen zu digitalen Themen. Mit über 400 Teilnehmenden an unseren Workshops und 170 Vereinen, die unsere Tools nutzen, können wir seit dem stolz auf eine gewachsene und großartige Community blicken und auf ein Projekt, das die Vereinsarbeit auch weiterhin nachhaltig bereichern wird.',
             en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
           },
         },
         img: {
           src: 'assets/images/3.1-digital-vereint.jpg',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: '© Daniel Lucas Faró'
         }
       },
       {
@@ -361,7 +361,7 @@ const content = {
         img: {
           src: 'assets/images/3.2-aktionsfeld.jpg',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: '© Malgorzata Magdon'
         }
       },
       {
@@ -388,7 +388,7 @@ const content = {
         img: {
           src: 'assets/images/3.3-stadtpuls.png',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: ''
         }
       },
       {
@@ -409,7 +409,7 @@ const content = {
         img: {
           src: 'assets/images/3.4-summer-school.jpg',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: '© Sara Reichert'
         }
       },
       {
@@ -425,8 +425,8 @@ const content = {
             },
             {
               de: 'Projekt: QTrees',
-              en: 'Project: Giess den Kiez',
-              href: 'https://citylab-berlin.org/de/projects/qtrees/',
+              en: 'Project: QTrees',
+              href: 'https://qtrees.ai',
             },
           ],
           title: {
@@ -441,7 +441,7 @@ const content = {
         img: {
           src: 'assets/images/3.5-giess-den-kiez.jpg',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: '© Florian Reichert'
         }
       },
     ]
@@ -477,7 +477,7 @@ const content = {
             {
               de: 'Zur Video Playlist',
               en: 'Video Playlist',
-              href: 'https://www.youtube.com/watch?v=v9OL3u46jnU&list=PLRIKlbncTSl8ox4cymmvF5thOMUKoK6oq',
+              href: 'https://www.youtube.com/playlist?list=PLRIKlbncTSl8ox4cymmvF5thOMUKoK6oq',
             },
           ],
           title: {
@@ -492,7 +492,7 @@ const content = {
         img: {
           src: 'assets/images/4.1-sommerfest.png',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: ''
         }
       },
       {
@@ -519,7 +519,7 @@ const content = {
         img: {
           src: 'assets/images/4.2-pixelworld.png',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: ''
         }
       },
       {
@@ -546,7 +546,7 @@ const content = {
         img: {
           src: 'assets/images/4.3-ausstellung.jpg',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: '© Florian Reichert'
         }
       },
     ]
@@ -593,7 +593,7 @@ const content = {
         img: {
           src: 'assets/images/5.1-smart-city-world-expo.jpg',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: '© Carlota Serarols'
         }
       },
       {
@@ -625,7 +625,7 @@ const content = {
         img: {
           src: 'assets/images/5.2-creative-bureaucracy-festival.png',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: ''
         }
       },
       {
@@ -652,7 +652,7 @@ const content = {
         img: {
           src: 'assets/images/5.2-smart-country-convention.png',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: ''
         }
       },
     ]

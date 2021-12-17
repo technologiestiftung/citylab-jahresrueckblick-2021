@@ -16,11 +16,11 @@ function ImageGroup({images, activeItem}) {
         <div key={`image-key-${i}`} className={cn.imageWrapper}>
           <img 
             key={d.id} 
-            className={cx(cn.image, {[cn.active]: activeItem.id === d.id})} 
+            className={cx(cn.image, {[cn.active]: activeItem.id === d.id})}
             src={d.img.src} 
             alt={d.img.alt} 
           />
-          {d.img.copyright && <span className={cx(cn.copyright, cn[activeItem.theme])}>{d.img.copyright}</span>}
+          {d.img.copyright && <span className={cx(cn.copyright, cn[activeItem.theme], {[cn.active]: activeItem.id === d.id})}>{d.img.copyright}</span>}
         </div>
       ))}
     </div>
