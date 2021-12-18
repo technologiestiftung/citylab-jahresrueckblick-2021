@@ -5,10 +5,8 @@ import useStore from '../../hooks/useStore';
 
 
 import ScrollableImages from '../../components/ScrollableImages';
-// import Quote from '../../components/Quote';
 import Paragraph from '../../components/Paragraph';
 import Headline from '../../components/Headline';
-import Anchor from '../../components/Anchor';
 
 import cn from './Unterwegs.module.scss';
 
@@ -36,9 +34,6 @@ function Unterwegs({content, ui, lang}) {
         <Paragraph lang={lang} content={content.blocks.intro.text} />
       </div>
       <ScrollableImages lang={lang} content={content} ui={ui}/>
-      {/* <div className={cn.wrapper}>
-          <Paragraph lang={lang} content={content.blocks.intro} />
-      </div> */}
     </section>
   )
 }

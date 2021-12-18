@@ -1,5 +1,4 @@
 import useStore from '../../hooks/useStore';
-import cx from 'classnames';
 
 import {ReactComponent as GlobeIcon} from '../../icons/globe.svg';
 
