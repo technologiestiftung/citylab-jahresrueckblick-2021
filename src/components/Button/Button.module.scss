@@ -4,7 +4,7 @@
     text-decoration: none;
     padding: 10px 15px;
     background-color: white;
-    color: black;
+    color: $dark-grey--1;
     transition: $transition-fast;
 
     &:hover {
@@ -12,7 +12,7 @@
     }
 
     &.dark {
-      background-color: black;
+      background-color: $dark-grey--1;
       color: white
     }
   }

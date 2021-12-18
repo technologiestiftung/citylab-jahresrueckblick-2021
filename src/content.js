@@ -65,6 +65,7 @@ const content = {
     }
   },
   smartCity: {
+    id: '1.0',
     topic: {
       de: 'Smart City',
       en: 'Smart City',
@@ -143,6 +144,7 @@ const content = {
     ]
   },
   frischerWind: {
+    id: '2.0',
     topic: {
       de: 'Frischer Wind für die Verwaltung',
       en: 'Fresh ideas for the administration',
@@ -270,6 +272,7 @@ const content = {
     ]
   },
   stadtUndWir: {
+    id: '3.0',
     topic: {
       de: 'Die Stadt und Wir',
       en: 'The city and we',
@@ -447,6 +450,7 @@ const content = {
     ]
   },
   hinterDenKulissen: {
+    id: '4.0',
     topic: {
       de: 'CityLAB hinter den Kulissen',
       en: 'CityLAB backstage',
@@ -552,6 +556,7 @@ const content = {
     ]
   },
   unterwegs: {
+    id: '5.0',
     topic: {
       de: 'CityLAB unterwegs',
       en: 'CityLAB worldwide',

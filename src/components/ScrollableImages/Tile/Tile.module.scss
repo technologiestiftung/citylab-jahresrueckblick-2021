@@ -4,6 +4,8 @@
   .tile {
     height: auto;
     width: auto;
+    border-radius: 10px;
+    border: 1px solid $dark-grey--7;
     background-color: white;
     padding: 20px 20px 33px 20px;
     @include box-shadow;
@@ -13,11 +15,11 @@
     }
 
     &.light {
-      background-color: black;
+      background-color: $dark-grey--1;
       color: white;
     }
     &.dark {
-      color: black;
+      color: $dark-grey--1;
     }
   }
 }

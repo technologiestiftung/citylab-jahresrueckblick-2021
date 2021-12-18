@@ -12,7 +12,6 @@ import StadtUndWir from './sections/StadtUndWir';
 import Unterwegs from './sections/Unterwegs';
 import HinterDenKulissen from './sections/HinterDenKulissen';
 
-import Header from './sections/Header';
 import Footer from './sections/Footer';
 
 import Navbar from './components/Navbar';
@@ -26,8 +25,12 @@ const getNavItems = () => {
   const keys = ['smartCity', 'frischerWind', 'stadtUndWir', 'hinterDenKulissen', 'unterwegs']
   return keys.map(d => ({
     id: d,
+    scrollId: content[d].id,
     topic: content[d].topic,
-    bubbles: content[d].items.map(d => (d.text.title))
+    bubbles: {
+      scrollId: content[d].id,
+      text: content[d].items.map(d => (d.text.title))
+    }
   }))
 }
 
@@ -36,7 +39,6 @@ function App() {
   const navItems = getNavItems();
   return (
     <div className={cn.app}>
-      <Header />
       <Intro content={content.intro} lang={lang} />
       <Navbar items={navItems} lang={lang}/>
       <section className={cn.layoutWrapper}>

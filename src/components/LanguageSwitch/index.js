@@ -14,12 +14,10 @@ function LanguageSwitch() {
 
   return (
     <div className={cn.wrapper}>
-      <div className={cn.iconWrapper}>
-        <GlobeIcon fill="white"/>
+      <div onClick={() => setLang(lang === 'de' ? 'en' : 'de')} className={cn.iconWrapper}>
+        <GlobeIcon fill="black"/>
       </div>
-      <span onClick={() => setLang('de')} className={cx(cn.label, {[cn.active]: lang === 'de'})}>DE</span>
-      <div className={cn.divider}/>
-      <span onClick={() => setLang('en')} className={cx(cn.label, {[cn.active]: lang === 'en'})}>EN</span>
+      <span>{lang}</span>
     </div>
   )
 }
