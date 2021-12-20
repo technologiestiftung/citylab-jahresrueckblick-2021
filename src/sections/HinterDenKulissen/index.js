@@ -25,8 +25,8 @@ function HinterDenKulissen({content, ui, lang}) {
 
   return (
     <section>
-        <div className={cx(cn.wrapper, cn.layoutWrapper)}>
         <div className="anchor" ref={elementRef} id={`anchor-${content.id}`} /> 
+        <div className={cx(cn.wrapper, cn.layoutWrapper)}>
         <Headline lang={lang} content={content.blocks.intro.title} />
         <Paragraph lang={lang} content={content.blocks.intro.text} />
         <Funfact content={content.blocks.funfact} lang={lang}/>

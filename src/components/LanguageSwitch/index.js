@@ -14,7 +14,7 @@ function LanguageSwitch() {
   return (
     <div className={cn.wrapper}>
       <div onClick={() => setLang(lang === 'de' ? 'en' : 'de')} className={cn.iconWrapper}>
-        <GlobeIcon fill="black"/>
+        <GlobeIcon fill="#404040"/>
       </div>
       <span>{lang}</span>
     </div>

@@ -50,7 +50,7 @@ const content = {
         label: 'Gefördert durch:',
         alt: 'Senatskanzlei Berlin Logo',
         href: 'https://www.berlin.de/rbmskzl/',
-        src: 'assets/logos/berlin-skzl-logo.png' 
+        src: 'assets/logos/berlin-skzl-logo.jpg' 
       },
     ]
   },
@@ -109,7 +109,7 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/1.1-smart-city-strategieprozess.png',
+          src: 'assets/images/1.1-smart-city-strategieprozess.jpg',
           alt: 'image tag',
           copyright: ''
         }
@@ -136,7 +136,7 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/1.2-symposium.png',
+          src: 'assets/images/1.2-symposium.jpg',
           alt: 'image tag',
           copyright: ''
         }
@@ -217,9 +217,9 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/2.2-service-agenten-schulung.png',
+          src: 'assets/images/2.2-agenten-schulung.jpg',
           alt: 'image tag',
-          copyright: 'Image copyright here.'
+          copyright: ''
         }
       },
       {
@@ -264,7 +264,7 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/2.4-prototypen-werkstatt.png',
+          src: 'assets/images/2.4-prototypen-werkstatt.jpg',
           alt: 'image tag',
           copyright: ''
         }
@@ -389,7 +389,7 @@ const content = {
           }
         },
         img: {
-          src: 'assets/images/3.3-stadtpuls.png',
+          src: 'assets/images/3.3-stadtpuls.jpg',
           alt: 'image tag',
           copyright: ''
         }
@@ -494,7 +494,7 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/4.1-sommerfest.png',
+          src: 'assets/images/4.1-sommerfest.jpg',
           alt: 'image tag',
           copyright: ''
         }
@@ -521,7 +521,7 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/4.2-pixelworld.png',
+          src: 'assets/images/4.2-pixelworld.jpg',
           alt: 'image tag',
           copyright: ''
         }
@@ -628,7 +628,7 @@ const content = {
           },
         },
         img: {
-          src: 'assets/images/5.2-creative-bureaucracy-festival.png',
+          src: 'assets/images/5.2-creative-bureaucracy-festival.jpg',
           alt: 'image tag',
           copyright: ''
         }
@@ -655,7 +655,7 @@ const content = {
           }
         },
         img: {
-          src: 'assets/images/5.2-smart-country-convention.png',
+          src: 'assets/images/5.2-smart-country-convention.jpg',
           alt: 'image tag',
           copyright: ''
         }
