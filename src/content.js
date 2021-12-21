@@ -10,8 +10,8 @@ const content = {
       copyright: ''
     },
     headline: {
-      de: 'Einleitung',
-      en: 'Introduction',
+      de: 'Jahresrückblick 2021',
+      en: 'Annual review 2021',
     },
     text: {
       de: '2021 liegt hinter uns. Ein Jahr, das geprägt war vom griechischen Alphabet, digitalem Arbeiten, verschiedensten Lockdowns, Wahlparties und dem Ende der Ära Merkel. <br/> <br/> Doch während sich 2021 pandemiebedingt manchmal wie eine Wiederholung von 2020 anfühlte, stand das CityLAB Berlin nicht still, sondern boosterte Berlin digital: <br/> <br/> Während Deutschland über Brückenlockdowns diskutierte, bauten wir digitale Brücken mit Digital Vereint. Als die Ever Given den Suezkanal verstopfte, lösten wir Digitalblockaden in der Stadt und während Berlin gespannt der EM folgte, spielten wir den Beteiligungsball der Smart City an die Stadtgesellschaft. <br/> <br/> Digital ins Gepäck nahmen wir euch auch mit auf unsere Reisen -  aufs Creative Bureaucracy Festival, zu den Digital Days nach Wien oder nach Barcelona auf die Smart City World Expo. <br/> <br/> Aber auch zu Hause blieb es spannend  – denn ihr hattet die Qual der Wahl: Ob Ampel, Jamaica, Smart City-Beteiligungsprozess oder Digitalwerkstatt Verwaltung: 2021 stand ganz unter dem Motto der Partizipation. <br/> <br/> Was bei uns das Jahr über noch so los war zeigen wir euch in unserem Scrollytelling. <br/> <br/> Denn während viele im Internet trollen, lassen wir euch lieber scrollen! 😉 <br/></br> Viel Spaß bei unserem Jahresrückblick 2021!',
@@ -50,7 +50,7 @@ const content = {
         label: 'Gefördert durch:',
         alt: 'Senatskanzlei Berlin Logo',
         href: 'https://www.berlin.de/rbmskzl/',
-        src: 'assets/logos/berlin-skzl-logo.jpg' 
+        src: 'assets/logos/berlin-skzl-logo.png'
       },
     ]
   },

@@ -8,7 +8,7 @@
     height: 40px;
     width: 280px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0px;
     @include box-shadow;
     z-index: 100;
     border: 1px solid rgb(235, 235, 235);
@@ -62,7 +62,7 @@
     width: 30px;
     cursor: pointer;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 0px;
     display: flex;
     justify-content: center;
     background-color: $dark-grey--7;

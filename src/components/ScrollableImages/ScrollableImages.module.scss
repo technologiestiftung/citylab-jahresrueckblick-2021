@@ -3,22 +3,25 @@
 
 :local {
   .tileWrapper {
-    height: 150vh;
-    width: calc(100% - 40px);
+    height: 200vh;
+    width: calc(100% - 20px);
     margin: 0 auto;
     
     @media screen and (min-width: $break-tablet-min) {
       margin-left: 30px;
       width: 400px;
+      height: 150vh;
     }
   }
   .title {
-    font-size: $font-size-l;
-    margin: 5px 0 10px
+    font-size: $font-size-xl;
+    margin: 5px 0 10px;
+    font-weight: normal;
   }
   .subtitle {
-    font-size: $font-size-m;
-    margin: 15px 0 15px
+    font-size: $font-size-l;
+    margin: 15px 0 15px;
+    font-weight: normal;
   }
   .text {
     font-size: $font-size-m;
