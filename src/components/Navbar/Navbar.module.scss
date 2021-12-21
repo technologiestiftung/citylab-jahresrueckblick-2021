@@ -65,7 +65,7 @@
     border-radius: 0px;
     display: flex;
     justify-content: center;
-    background-color: $dark-grey--7;
+    // background-color: $dark-grey--7;
     margin: 0 3.5px;
 
     &.smartCity {
@@ -110,7 +110,7 @@
       }
     }
     &.active {
-      background-color: $dark-grey--6;
+      // background-color: $dark-grey--6;
       svg {
         opacity: 1;
       }
