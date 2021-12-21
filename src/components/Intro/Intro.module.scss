@@ -13,19 +13,20 @@
   }
   .textContainer {
     position: absolute;
-    width: 350px;
     top: 20px;
-    left: calc(50% - 198px);
     display: flex;
     flex-direction: column;
-    padding: 23px;
+    padding: 20px;
     justify-content: center;
     background-color: white;
     margin: 0 auto;
-
-    @media screen and (max-width: $break-phablet-min) {
-      width: 280px;
-      left: calc(50% - 164px);
+    width: 250px;
+    left: calc(50% - 145px);
+    
+    @media screen and (min-width: $break-phablet-min) {
+      width: 350px;
+      padding: 25px;
+      left: calc(50% - 198px);
     }
     
     img {

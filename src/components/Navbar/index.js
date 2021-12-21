@@ -74,6 +74,8 @@ function Navbar({items, lang}) {
 
   function handleClick(id) {
     document.getElementById(`anchor-${id}`).scrollIntoView({ behavior: 'smooth', block: 'center' }); 
+    setActiveLabel(null);
+    setIsHovered(false);
   }
 
   return (
