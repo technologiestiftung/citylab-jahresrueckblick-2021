@@ -8,6 +8,7 @@ import ScrollableImages from '../../components/ScrollableImages';
 import Paragraph from '../../components/Paragraph';
 import Headline from '../../components/Headline';
 import Funfact from '../../components/Funfact';
+import Icon from '../../components/Icon';
 
 import cn from './StadtUndWir.module.scss';
 
@@ -28,6 +29,7 @@ function StadtUndWir({content, ui, lang}) {
     <section>
       <div className={cx(cn.wrapper, cn.layoutWrapper)}>
       <div className="anchor" ref={elementRef} id={`anchor-${content.id}`} /> 
+        <Icon type="stadtUndWir" />
         <Headline lang={lang} content={content.blocks.intro.title} />
         <Paragraph lang={lang} content={content.blocks.intro.text} />
         <Funfact content={content.blocks.funfact} lang={lang}/>

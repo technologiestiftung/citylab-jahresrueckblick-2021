@@ -7,6 +7,7 @@ import ScrollableImages from '../../components/ScrollableImages';
 import Paragraph from '../../components/Paragraph';
 import Headline from '../../components/Headline';
 import Funfact from '../../components/Funfact';
+import Icon from '../../components/Icon';
 
 import cn from './HinterDenKulissen.module.scss';
 
@@ -27,6 +28,7 @@ function HinterDenKulissen({content, ui, lang}) {
     <section>
         <div className="anchor" ref={elementRef} id={`anchor-${content.id}`} /> 
         <div className={cx(cn.wrapper, cn.layoutWrapper)}>
+        <Icon type="hinterDenKulissen" />
         <Headline lang={lang} content={content.blocks.intro.title} />
         <Paragraph lang={lang} content={content.blocks.intro.text} />
         <Funfact content={content.blocks.funfact} lang={lang}/>

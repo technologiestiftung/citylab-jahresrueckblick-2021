@@ -6,6 +6,7 @@ import useStore from '../../hooks/useStore';
 import ScrollableImages from '../../components/ScrollableImages';
 import Paragraph from '../../components/Paragraph';
 import Headline from '../../components/Headline';
+import Icon from '../../components/Icon';
 
 import cx from 'classnames';
 
@@ -29,6 +30,7 @@ function SmartCity({content, ui, lang}) {
     <section>
       <div className={cx(cn.wrapper, cn.layoutWrapper)}>
         <div className="anchor" ref={elementRef} id={`anchor-${content.id}`} /> 
+        <Icon type="smartCity" />
         <Headline lang={lang} content={content.blocks.intro.title} />
         <Paragraph lang={lang} content={content.blocks.intro.text} />
         <Funfact content={content.blocks.funfact} lang={lang}/>
