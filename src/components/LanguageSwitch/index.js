@@ -12,8 +12,8 @@ function LanguageSwitch() {
   const lang = useStore(langSelector);
 
   return (
-    <div className={cn.wrapper}>
-      <div onClick={() => setLang(lang === 'de' ? 'en' : 'de')} className={cn.iconWrapper}>
+    <div onClick={() => setLang(lang === 'de' ? 'en' : 'de')} className={cn.wrapper}>
+      <div className={cn.iconWrapper}>
         <GlobeIcon fill="#404040"/>
       </div>
       <span>{lang}</span>

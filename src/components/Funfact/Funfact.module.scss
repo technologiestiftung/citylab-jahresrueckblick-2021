@@ -6,7 +6,7 @@
     background-color: $blue--1;
     border-radius: 0px;
     max-width: $medium-content-width;
-    margin: 40px auto;
+    margin: 20px auto 0 auto;
   }
 
   .text {
@@ -15,10 +15,6 @@
     color: $blue;
     line-height: 150%;
     font-size: $font-size-m;
-
-    @media screen and (min-width: $break-tablet-min) {
-      font-size: $font-size-l;
-    }
   }
 
   .iconWrapper {

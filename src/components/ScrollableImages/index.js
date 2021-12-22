@@ -9,6 +9,7 @@ import ImageGroup from './ImageGroup';
 import Tile from './Tile';
 // import Button from '../Button';
 import Link from '../Link';
+import Funfact from '../Funfact';
 
 const langSelector = (s) => s.lang;
 const activeSelector = (s) => s.active;
@@ -39,11 +40,12 @@ function ScrollableImages({content, ui}) {
             </div>
             <h3 className={cn.title}>{d.text.title[lang]}</h3>
             <p className={cn.text} dangerouslySetInnerHTML={{__html: d.text.paragraph[lang]}}></p>
+            {d.text.funfact && <Funfact content={d.text.funfact} lang={lang}/>}
             {d.text?.links?.length > 0 && <h3  className={cn.subtitle}>{ui.moreLinks[lang]}</h3>}
             {d.text?.links?.length > 0 && <div className={cn.linkWrapper}>
               <>
-              {d.text?.links.map(link => (
-                <Link theme={d.theme} content={link} lang={lang} />
+              {d.text?.links.map((link,i) => (
+                <Link key={`link-key-${i}`} theme={d.theme} content={link} lang={lang} />
               ))}
               </>
             </div>}

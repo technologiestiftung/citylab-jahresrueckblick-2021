@@ -1,11 +1,11 @@
 @import '../../styles/base.scss';
 :local {
   .iconWrapper {
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     background-color: $dark-grey--7;
-    padding: 10px;
-    // border-radius: 100px;
+    padding: 15px;
+    border-radius: 100px;
 
     svg {
       width: 100%;

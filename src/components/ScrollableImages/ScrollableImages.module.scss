@@ -36,11 +36,6 @@
     a {
       margin-bottom: 10px;
     }
-    
-    
-    @media screen and (min-width: $break-phablet-min) {
-      flex-direction: row;
-    }
   }
   .topline {
     color: $dark-grey--2;

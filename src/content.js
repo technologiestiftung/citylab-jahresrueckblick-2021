@@ -1,7 +1,7 @@
 const content = {
   outtro: {
     de: 'Das war’s mit unserem Jahresrückblick 2021! Wir schauen auf ein abwechslungsreiches Jahr zurück, das genauso vielfältig war wie Berlin selbst! Nun freuen wir uns auf 2022 und viele gemeinsame Projekte mit der Berliner Verwaltung und der gesamten Stadtgesellschaft. <br/> <br>Euer CityLAB Berlin der Herzen',
-    en: 'Outtro english'
+    en: `That's it for our annual annual review of 2021! We look back on an exciting year that was as diverse as Berlin itself! Now we are looking forward to 2022 and many joint projects with Berlin's public administration and the entire city society.<br/><br/>Your CityLAB Berlin of Hearts`
   },
   intro: {
     img: {
@@ -14,8 +14,8 @@ const content = {
       en: 'Annual review 2021',
     },
     text: {
-      de: '2021 liegt hinter uns. Ein Jahr, das geprägt war vom griechischen Alphabet, digitalem Arbeiten, verschiedensten Lockdowns, Wahlparties und dem Ende der Ära Merkel. <br/> <br/> Doch während sich 2021 pandemiebedingt manchmal wie eine Wiederholung von 2020 anfühlte, stand das CityLAB Berlin nicht still, sondern boosterte Berlin digital: <br/> <br/> Während Deutschland über Brückenlockdowns diskutierte, bauten wir digitale Brücken mit Digital Vereint. Als die Ever Given den Suezkanal verstopfte, lösten wir Digitalblockaden in der Stadt und während Berlin gespannt der EM folgte, spielten wir den Beteiligungsball der Smart City an die Stadtgesellschaft. <br/> <br/> Digital ins Gepäck nahmen wir euch auch mit auf unsere Reisen -  aufs Creative Bureaucracy Festival, zu den Digital Days nach Wien oder nach Barcelona auf die Smart City World Expo. <br/> <br/> Aber auch zu Hause blieb es spannend  – denn ihr hattet die Qual der Wahl: Ob Ampel, Jamaica, Smart City-Beteiligungsprozess oder Digitalwerkstatt Verwaltung: 2021 stand ganz unter dem Motto der Partizipation. <br/> <br/> Was bei uns das Jahr über noch so los war zeigen wir euch in unserem Scrollytelling. <br/> <br/> Denn während viele im Internet trollen, lassen wir euch lieber scrollen! 😉 <br/></br> Viel Spaß bei unserem Jahresrückblick 2021!',
-      en: '2021 is over. A year characterized by the Greek alphabet, digital working, various lockdowns, election parties and the end of the Merkel era.<br/><br/>But while 2021 sometimes felt like a repeat of 2020 due to the pandemic, CityLAB Berlin did not stand still, but boostered Berlin digitally:<br/><br/>While Germany discussed bridge blockdowns, we built digital bridges with Digital Vereint. When the Ever Given clogged the Suez Canal, we solved digital blockades in the city and while Berlin was following the European Championship excitedly, we played the Smart City participation ball to the urban society.We also took you with us on our digital travels - to the Creative Bureaucracy Festival, to the Digital Days in Vienna and to the Smart City World Expo in Barcelona.<br/><br/>But it was also exciting at home - because you were given the choice: whether traffic lights, Jamaica, Smart City participation process or digital workshop on administration: 2021 was all about participation.<br/><br/>In our scrollytelling, we show you what else was going on with us during the year.Because while many people troll the internet, we prefer to let you scroll!<br/><br/>Enjoy our review of the year 2021!'
+      de: 'Liebe CityLAB Community,<br/><br/>2021 liegt hinter uns. Wir blicken zurück auf ein hybrides Jahr, in dem wir off- als auch online viele Projekte, Veranstaltungen und Ideen umgesetzt, einiges dazugelernt und Berlin einen digitalen Booster verpasst haben.<br/><br/>Egal ob es unser Online-Symposium mit über 400 Teilnehmenden war, Workshops zu digitalen Verwaltungsformularen oder neue Projekte wie Stadtpuls oder QTrees –  mit euch spielten wir die Klaviatur der digitalen Möglichkeiten auf und ab.<br/><br/>Digital ins Gepäck nahmen wir euch auch mit auf unsere Reisen -  auf das Creative Bureaucracy Festival, zu den Digital Days nach Wien oder nach Barcelona auf die Smart City World Expo.<br/><br/>ber auch zu Hause blieb es spannend  – denn ihr hattet die Qual der Wahl: Ob Ampel, RGR oder Smart City-Beteiligungsprozess: 2021 stand ganz unter dem Motto der Partizipation.<br/><br/>Was bei uns das Jahr über noch so los war zeigen wir euch in unserem Scrollytelling-Jahresrückblick. Denn während viele im Internet trollen, lassen wir euch lieber scrollen! 😉<br/><br/>Viel Spaß bei unserem Jahresrückblick 2021!',
+      en: "2021 is behind us, and to acknowledge its passing, we'd like to take a moment to look back on a hybrid year in which we implemented various projects, events and ideas — both off and online — learned a lot, and gave Berlin a digital boost(er) of sorts.<br/><br/>Whether it was our online symposium with more than 400 participants, workshops on optimizing digital government forms, or new projects such as Stadtpuls or QTrees, we had the opportunity to explore a world of digital possibilities with you all.<br/><br/>We also were able to sneak you into our suitcase during our travels (both physical and digital) to events like the Creative Bureaucracy Festival, the Digital Days in Vienna and the Smart City World Expo in Barcelona.<br/><br/>Back home here in Berlin, things were just as exciting, because suddenly you were spoiled for choice: between the federal election, the Berlin state election and the smart city participation process, 2021 was all about participation and having your voice heard.<br/><br/>Interested to see just how much we got up to this year (and what you might have missed)? Read up on our year in review in our Scrollytelling story below.<br/><br/>Because while many people troll the internet, we prefer to let you scroll!<br/><br/>Enjoy our review of the year 2021!"
     }
   },
   footer: {
@@ -36,21 +36,36 @@ const content = {
         label: ' ',
         alt: 'City Lab Berlin Logo',
         href: 'https://citylab-berlin.org/',
-        src: 'assets/logos/citylab-logo.svg' 
+        src: {
+          de: 'assets/logos/citylab-logo.svg',
+          en: 'assets/logos/citylab-logo.svg',
+        }
       },
       {
         className: 'tsb',
-        label: 'Ein Projekt der:',
+        label: {
+          de: 'Ein Projekt der:',
+          en: 'A project of:',
+        },
         alt: 'Technologiestiftung Berlin Logo',
         href: 'https://technologiestiftung-berlin.de/',
-        src: 'assets/logos/tsb-logo.svg' 
+        src: {
+          de: 'assets/logos/tsb-logo.svg' ,
+          en: 'assets/logos/tsb-logo.svg' ,
+        }
       },
       {
         className: 'skzl',
-        label: 'Gefördert durch:',
+        label: {
+          de: 'Gefördert durch:',
+          en: 'Funded by:',
+        },
         alt: 'Senatskanzlei Berlin Logo',
         href: 'https://www.berlin.de/rbmskzl/',
-        src: 'assets/logos/berlin-skzl-logo.png'
+        src: {
+          de: 'assets/logos/berlin-skzl-logo-de.jpg',
+          en: 'assets/logos/berlin-skzl-logo-en.jpg',
+        }
       },
     ]
   },
@@ -77,13 +92,9 @@ const content = {
           en: 'Smart City',
         },
         text: {
-          de: 'Berlin entwickelt im Programm „Modellprojekte Smart Cities“ des BMI eine neue Smart City-Strategie, bei der Partizipation, Menschen und Werte im Vordergrund stehen. Die Strategie entsteht deshalb im Dialog mit Berlins diverser Stadtgesellschaft – weg von einem rein technologischen Fokus, hin zu Mitgestaltung und Einbeziehung. Im Auftrag der Senatskanzlei koordinieren und begleiten wir dieses breit angelegte Projekt in mehreren Phasen.',
-          en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness <br/> <br/> No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.'
+          de: 'Berlin entwickelt im Programm „Modellprojekte Smart Cities“ des BMI und der KfW eine neue Smart City-Strategie, bei der Partizipation, Menschen und Werte im Vordergrund stehen. Die Strategie entsteht im Dialog mit Berlins diverser Stadtgesellschaft – weg von einem rein technologischen Fokus, hin zu Mitgestaltung und Einbeziehung. Im Auftrag der Senatskanzlei koordinieren und begleiten wir dieses breit angelegte Projekt in mehreren Phasen.',
+          en: `Berlin is developing a new smart city strategy in BMI's and KfWs "Model Projects Smart Cities" programme, which focuses on participation, people and values. The strategy is being developed in dialogue with Berlin's diverse urban society – moving away from a purely technological focus towards co-design and inclusion. On behalf of the Senate Chancellery, we coordinate and accompany this broad-based project in several phases.`
         },
-      },
-      funfact: {
-        de: `Das Symposium war nicht die einzige Veranstaltung in 2021. Über <strong>2700 Teilnehmende</strong> begrüßten wir bei unseren Events im vergangenen Jahr.`,
-        en: `Funfact in english!`,
       },
     },
     items: [
@@ -95,17 +106,17 @@ const content = {
           links: [
             {
               de: 'Mehr Infos',
-              en: 'More info',
-              href: 'https://www.notion.so/politicsfortomorrow/Berlin-lebenswert-smart-bec3fb01ae3b4d33bd2c1582fc1eb06f ',
+              en: 'More information',
+              href: 'https://strategie.smart-city-berlin.de/ ',
             },
           ], 
           title: {
             de: 'Strategieprozess',
-            en: 'Strategy process',
+            en: 'Strategy Process',
           },
           paragraph: {
-            de: 'Im Frühjahr 2021 entwickelten wir in Zusammenarbeit mit Stadtgesellschaft, Verwaltung, Wirtschaft, Wissenschaft sowie sogenannten stillen Gruppen einen strategischen Rahmen, der übergeordnete Visionen der Smart City Berlin beschreibt. Daran anknüpfend startete im Herbst der Beteiligungsprozess zur Strategie. Im Herzen steht das Stadtgremium Digitales Berlin. Zufällig ausgeloste Berliner:innen repräsentieren in diesem Gremium die Vielfalt Berlins und erarbeiten in Zusammenspiel mit der Verwaltung, Smart City-Expert:innen und der interessierten Öffentlichkeit konkrete Inhalte für die Strategie. In der ab Frühjahr 2022 startenden Ausarbeitungsphase soll die Strategie durch konkrete Maßnahmen und Projekte erprobt und umgesetzt werden.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            de: 'Im Frühjahr 2021 entwickelten wir in Zusammenarbeit mit Stadtgesellschaft, Verwaltung, Wirtschaft, Wissenschaft sowie sogenannten stillen Gruppen einen strategischen Rahmen, der übergeordnete Visionen der Smart City Berlin beschreibt. Daran anknüpfend startete im Herbst eine weitere Phase des Beteiligungsprozesses zur Strategie. Im Mittelpunkt steht das Stadtgremium Digitales Berlin. Zufällig ausgeloste Berliner:innen repräsentieren in diesem Gremium die Vielfalt der Stadt und erarbeiten in Zusammenspiel mit der Verwaltung, Smart City-Expert:innen und der interessierten Öffentlichkeit konkrete Inhalte für die Strategie. In der ab Frühjahr 2022 startenden Umsetzungsphase sollen erste Aspekte der Strategie durch konkrete Maßnahmen und Projekte erprobt und umgesetzt werden.',
+            en: 'In spring 2021, we developed a strategic framework for the overarching visions of Smart City Berlin in cooperation with the urban community, administration, business, science and so-called silent groups. Following on from this, a further phase of the participation process for the strategy began in autumn. At its heart is the city committee Digital Berlin. Randomly selected Berliners represent the diversity of Berlin in this committee and work together with the administration, Smart City experts and the interested public to develop concrete content for the strategy. First aspects of the strategy will be tested through concrete projects in the implementation phase starting in spring 2022.',
           },
         },
         img: {
@@ -122,7 +133,7 @@ const content = {
           links: [
             {
               de: 'Zur Video Playlist',
-              en: 'Video Playlist',
+              en: 'To the videos',
               href: 'https://youtube.com/playlist?list=PLRIKlbncTSl-BGkz761lQf7sRcLPBN-YU',
             },
           ], 
@@ -131,8 +142,12 @@ const content = {
             en: 'Symposium ‘Redefining the Smart City',
           },
           paragraph: {
-            de: 'Unser internationales Smart City Symposium, das wir gemeinsam mit dem Centre for Digital Governance/Hertie School organisierten, gab einen Überblick über den aktuellen Stand der Forschung zu Smart Cities und bot allen, die sich für Smart Cities interessieren, ein Forum zum Zuhören, Lernen, Präsentieren und Diskutieren. Neben fast 400 Teilnehmenden begrüßten wir Staatssekretär Dr. Frank Nägele, Beth Simone Noveck, Francesca Bria, Ben Green und Brigitte Lutz und viele mehr im digitalen Berlin.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            de: 'Unser internationales Smart City Symposium, das wir gemeinsam mit dem Centre for Digital Governance der Hertie School organisierten, gab einen Überblick über den aktuellen Stand der Forschung zu Smart Cities. Es bot allen, die sich für Smart Cities interessieren, ein Forum zum Zuhören, Lernen, Präsentieren und Diskutieren. Neben fast 400 Teilnehmenden begrüßten wir Staatssekretär Dr. Frank Nägele, Beth Simone Noveck, Francesca Bria, Ben Green, Brigitte Lutz und viele mehr im digitalen Berlin.',
+            en: 'Our international Smart City Symposium, organized jointly with the Center for Digital Governance of the Hertie School, provided an overview of the current state of research on smart cities and offered everyone interested in smart cities a forum to listen, learn, present and discuss. In addition to almost 400 participants, we welcomed State Secretary Dr Frank Nägele, Beth Simone Noveck, Francesca Bria, Ben Green and Brigitte Lutz and many more to digital Berlin.',
+          },
+          funfact: {
+            de: `Das Symposium war nicht die einzige Veranstaltung in 2021. Über <strong>2700 Teilnehmende</strong> begrüßten wir bei unseren Events im vergangenen Jahr.`,
+            en: `The symposium was not the only event in 2021. We welcomed over <strong>2700 participants</strong> online and offline at our 93 events last year.`,
           },
         },
         img: {
@@ -147,31 +162,17 @@ const content = {
     id: '2.0',
     topic: {
       de: 'Frischer Wind für die Verwaltung',
-      en: 'Fresh ideas for the administration',
+      en: 'A fresh wind for the administration',
     },
     blocks: {
       intro: {
         title: {
           de: 'Frischer Wind für die Verwaltung',
-          en: 'Fresh ideas for the administration',
+          en: 'A fresh wind for the administration',
         },
         text: {
           de: 'Die Verwaltung setzt die Segel und bricht zu neuen digitalen Ufern auf. Einige der Leuchtturmprojekte, die uns sicher zum digitalen Hafen führen, haben wir für euch zusammengestellt.',
-          en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness <br/> <br/> No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.'
-        }
-      },
-      quote: {
-        text: {
-          de: 'Lorem ipsum dolor sit amet, cu ullum pertinax est, ut eos esse eripuit periculis, tamquam efficiantur.',
-          en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
-        },
-        author: {
-          src: 'assets/images/author_1.jpg',
-          name: 'Niklas Kossow',
-          job: {
-            de: 'Projektmanager',
-            en: 'Project manager',
-          }
+          en: 'The administration is setting sail for new digital shores. We have compiled some of the lighthouse projects that will lead us safely to the digital harbour.'
         }
       },
       funfact: {
@@ -188,11 +189,11 @@ const content = {
           links: [], 
           title: {
             de: 'Digitalwerkstatt Verwaltung',
-            en: 'Digital workshop for the administration',
+            en: 'Digital Workshop for Administration',
           },
           paragraph: {
-            de: 'Zusammen mit der Senatsverwaltung für Inneres und Sport organisierten wir im Oktober 2021 eine Reihe von Online-Workshops, bei denen wir gemeinsam mit 45 Bürger:innen Verwaltungsformulare testeten, Feedback sammelten und Ideen für Verbesserungen entwickelten. Die Ergebnisse der Workshops werden dafür genutzt, um aktuelle und zukünftige Formulare nutzerfreundlicher zu gestalten. ',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            de: 'Zusammen mit der Senatsverwaltung für Inneres und Sport organisierten wir im Oktober 2021 eine Reihe von Online-Workshops, bei denen wir gemeinsam mit 45 Bürger:innen Verwaltungsformulare testeten, Feedback sammelten und Ideen für Verbesserungen entwickelten. Die Ergebnisse der Workshops werden dafür genutzt, um aktuelle und zukünftige Formulare nutzerfreundlicher zu gestalten.',
+            en: 'In October 2021, in collaboration with the Senate Department for Internal Affairs and Sport, we organised a series of online workshops testing administrative forms, collecting feedback and developing ideas for improvements with a group of 45 citizens. The results of the workshops will be used to make current and future forms more user-friendly.',
           },
         },
         img: {
@@ -208,12 +209,12 @@ const content = {
         text: {
           links: [], 
           title: {
-            de: 'Service Agenten Schulung',
-            en: 'Service agents training',
+            de: 'Service Agenten-Schulung',
+            en: 'Service Agent Training',
           },
           paragraph: {
-            de: 'In Zusammenarbeit mit Daniela Hensel, Professorin für Design an der HTW Berlin und Johanna Götz, wissenschaftliche Mitarbeiterin an der HTW Berlin, riefen wir die Schulung der Service Agenten ins Leben, die zum Ziel hat, den Begriff “Nutzerfreundlichkeit” in die Verwaltung einzubringen. Dabei wurden Verwaltungsangestellte mit einem breiten Werkzeugkasten an Methoden ausgestattet, den sie im Transfer auf weitere Projekte anwenden können.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            de: 'In Zusammenarbeit mit Daniela Hensel, Professorin für Design an der HTW Berlin und Johanna Götz, wissenschaftliche Mitarbeiterin an der HTW Berlin, riefen wir eine mehrteilige “Service Agenten”-Schulung für Verwaltungsbeschäftigte ins Leben, die zum Ziel hat, eine stärkere Nutzerorientierung und Methoden des Service Designs in der Verwaltung zu verankern. Dabei wurden Verwaltungsangestellte mit einem breiten Werkzeugkasten an Methoden ausgestattet, den sie im Transfer auf weitere Projekte anwenden können.',
+            en: 'In cooperation with Daniela Hensel, professor of design at the HTW Berlin, and Johanna Götz, research assistant at the HTW Berlin, we started a multi-part "service agent" training for administrative staff with the aim of establishing a stronger user orientation and service design methods in the administration. In the process, administrative employees were equipped with a broad toolbox of methods that they can apply to future projects.',
           },
         },
         img: {
@@ -232,9 +233,9 @@ const content = {
             en: 'AfS Dashboard',
           },
           paragraph: {
-            de: 'In vielen Bereichen der Berliner Verwaltung werden zahlreiche Daten zu diversen Leistungen erhoben und gespeichert, doch mangelt es an einer einheitlichen Darstellungsmethode dieser Daten. Wir unterstützten das Amt für Statistik (AfS) und die Senatskanzlei bei der Entwicklung einer zentralen Dashboardlösung, die in unterschiedlichen Verwaltungsbereichen und Kontexten zum Einsatz kommen könnte. Daten könnten dadurch von diversen Zielgruppen präsentiert und zugänglich gemacht werden.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
-          }
+            de: 'In vielen Bereichen der Berliner Verwaltung werden zahlreiche Daten zu diversen Leistungen erhoben und gespeichert, doch mangelt es an einer einheitlichen Darstellungsmethode dieser Daten. Im Rahmen von Design Sprints unterstützten wir das Amt für Statistik (AfS) und die Senatskanzlei bei der Konzeption einer zentralen Dashboardlösung, die in unterschiedlichen Verwaltungsbereichen und Kontexten zum Einsatz kommen soll. Daten könnten dadurch leichter präsentiert und zugänglich gemacht werden, auch die verwaltungsübergreifende Zusammenarbeit wird erleichtert.',
+            en: 'Many areas of the Berlin administration collect and store numerous data on various services, but there is a lack of a uniform method for presenting this data. Within the framework of design sprints, we supported the Office for Statistics (AfS) and the Senate Chancellery in developing a central dashboard solution that could be used in different administrative areas and contexts. Data can thus be presented and made accessible whilst cross-administrative cooperation is also facilitated.',
+          },
         },
         img: {
           src: 'assets/images/2.3-afs-dashboard.jpg',
@@ -250,17 +251,21 @@ const content = {
           links: [
             {
               de: 'Mehr Infos',
-              en: 'More info',
+              en: 'More information',
               href: 'https://citylab-berlin.org/de/blog/das-wissen-der-berliner-verwaltung-liegt-verteilt-in-tausenden-excel-dateien/ ',
             },
           ], 
           title: {
             de: 'Prototypenwerkstatt',
-            en: 'Prototyping workshop',
+            en: 'Prototype Workshop',
           },
           paragraph: {
-            de: 'Im Rahmen der Prototypenwerkstatt unterstützten wir die Berliner Verwaltung bei der Digitalisierung von IT-Kleinstverfahren. Hierbei werden in Kooperation mit dem Berliner IT-Dienstleistungszentrum (ITDZ) digitale Prototypen entwickelt, die bei der Ablöse von hunderten IT-Kleinstverfahren der Berliner Verwaltung unterstützen. <br/> Die nachhaltige Vermittlung von Methodenkompetenzen in der digitalen Verwaltung sowie Empfehlungen bezüglich der Verbesserung von Prozessen runden den Prozeß ab. <br/> Das Vorgehen nutzt agile Arbeitsprozesse, in dem Prototypen iterativ und in enger Abstimmung mit den beteiligten Akteur:innen entwickelt werden.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            de: 'Im Rahmen der Prototypenwerkstatt unterstützten wir die Berliner Verwaltung bei der Digitalisierung von IT-Kleinstverfahren. Hierbei werden in Kooperation mit dem Berliner IT-Dienstleistungszentrum (ITDZ) digitale Prototypen entwickelt, die bei der Modernisierung von hunderten IT-Kleinstverfahren der Berliner Verwaltung unterstützen. Die nachhaltige Vermittlung von Methodenkompetenzen in der digitalen Verwaltung sowie Empfehlungen bezüglich der Verbesserung von Prozessen runden den Prozeß ab. <br/>Das Vorgehen nutzt agile Arbeitsprozesse, in dem Prototypen iterativ und in enger Abstimmung mit den beteiligten Akteur:innen entwickelt werden.',
+            en: 'In the prototype workshop, we supported the Berlin administration in the digitisation of small-scale IT processes. In cooperation with the Berlin IT Service Centre (ITDZ), digital prototypes are developed to support the replacement of hundreds of small IT processes in the Berlin administration. The sustainable transfer of methodological competences in digital administration as well as recommendations regarding the improvement of processes round off the process. The approach uses agile work processes in which prototypes are developed iteratively and in close consultation with the actors involved.',
+          },
+          funfact: {
+            de: `Frischen Wind bringt auch unser Handbuch Öffentliches Gestalten in die Verwaltung. 2021 wurden unsere letzten <strong>227 Exemplare</strong> verschickt. Keine Sorge, Nachschub ist unterwegs!`,
+            en: `Our Public Design Handbook also brings a breath of fresh air to the administration. In 2021 it was sent out <strong>227 times</strong>. But don't worry, supply is on the way.`,
           },
         },
         img: {
@@ -275,37 +280,19 @@ const content = {
     id: '3.0',
     topic: {
       de: 'Die Stadt und Wir',
-      en: 'The city and we',
+      en: 'The City and Us',
     },
     blocks: {
       intro: {
         title: {
           de: 'Die Stadt und Wir',
-          en: 'The city and we',
+          en: 'The City and Us',
         },
         text: {
-          de: 'Ein CityLAB wäre wohl nichts ohne eine City und mit Berlin auch noch eine der tollsten Städte der Welt. Den Mittelpunkt unserer Stadt bildet die Stadtgesellschaft, deren Vielfältigkeit uns immer wieder motiviert, in alle Richtungen zu denken und neue Wege zu beschreiten. Die Covid-19-Pandemie hat uns noch einmal vor Augen geführt, wie wichtig ziviler Zusammenhalt, eine lebendige Demokratie und gemeinsam geteiltes Wissen ist. Dies spiegelt sich auch in unseren Projekten wieder.',
-          en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness <br/> <br/> No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.'
+          de: 'Ein CityLAB wäre nichts ohne eine City. Zum Glück ist mit Berlin eine der tollsten Städte der Welt unser Experimentierfeld. Das Herz der Stadt bilden die Bewohner:innen, deren Vielfältigkeit und Kreativität uns immer wieder motiviert, in alle Richtungen zu denken und neue Wege zu beschreiten. Die Covid-19-Pandemie hat uns noch einmal vor Augen geführt, wie wichtig gesellschaftlicher Zusammenhalt, eine lebendige Demokratie und gemeinsam geteiltes Wissen ist. Dies spiegelt sich auch in unseren Projekten wieder.',
+          en: 'A CityLAB would probably be nothing without a city and luckily, Berlin, one of the greatest cities in the world, is our field of experimentation. At the heart of our city are the citizens, whose diversity constantly motivates us to think in all possible directions and break new ground. The Covid 19 pandemic has shown us once again the importance of civil solidarity, a living democracy and shared knowledge. This is also reflected in our projects.'
         }
-      },
-      quote: {
-        text: {
-          de: 'Lorem ipsum dolor sit amet, cu ullum pertinax est, ut eos esse eripuit periculis, tamquam efficiantur.',
-          en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
-        },
-        author: {
-          src: 'assets/images/author_1.jpg',
-          name: 'Niklas Kossow',
-          job: {
-            de: 'Projektmanager',
-            en: 'Project manager',
-          }
-        }
-      },
-      funfact: {
-        de: `2021 wuchsen nicht nur die Bäume – auch unser Lab ist von <strong>18 auf 26 Mitarbeiter:innen</strong> gewachsen`,
-        en: `Funfact in english!`,
-      },
+      }
     },
     items: [
       {
@@ -316,17 +303,22 @@ const content = {
           links: [
             {
               de: 'Zum Projekt',
-              en: 'The project',
+              en: 'To the website',
               href: 'https://www.digital-vereint.berlin/de',
+            },
+            {
+              de: 'Zum Video',
+              en: 'To the video',
+              href: 'https://www.youtube.com/watch?v=AycKzmPvdCw',
             },
           ],
           title: {
             de: 'Digital Vereint',
-            en: 'Digital Unites',
+            en: 'Digital Vereint',
           },
           paragraph: {
-            de: 'Zu Beginn des Jahres launchten wir Digital Vereint. Ein Angebot für Berliner Vereine, Initiativen und Non-Profit-Organisationen. Die Plattform bietet nicht nur kostenfreie Open Source Services für die digitale Zusammenarbeit, sondern auch Möglichkeiten zur Vernetzung und Informationen zu digitalen Themen. Mit über 400 Teilnehmenden an unseren Workshops und 170 Vereinen, die unsere Tools nutzen, können wir seit dem stolz auf eine gewachsene und großartige Community blicken und auf ein Projekt, das die Vereinsarbeit auch weiterhin nachhaltig bereichern wird.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            de: 'Zu Beginn des Jahres launchten wir Digital Vereint. Ein Angebot, um Berliner Vereine, Initiativen und Non-Profit-Organisationen, bei der Digitalisierung zu unterstützen. Die Plattform bietet nicht nur kostenfreie Open Source-Services für die digitale Zusammenarbeit, sondern auch Möglichkeiten zur Vernetzung und Informationen zu digitalen Themen. Mit über 400 Teilnehmenden an unseren Workshops und 170 Vereinen, die unsere Tools nutzen, können wir seitdem stolz auf eine gewachsene und großartige Community blicken und auf ein Projekt, das die digitale Vereinsarbeit auch weiterhin nachhaltig bereichern wird. ',
+            en: 'At the beginning of the year we launched Digital Vereint, a service for Berlin associations, initiatives and non-profit organisations. The platform offers not only free open source services for digital collaboration, but also networking opportunities and information on digital topics. With over 400 participants in our workshops and 170 associations using our tools, we can proudly look back on a grown and thriving community and on a project that will continue to enrich association work in the long term.',
           },
         },
         img: {
@@ -343,22 +335,22 @@ const content = {
           links: [
             {
               de: 'Zum Aktionsfeld',
-              en: 'Action field',
+              en: 'To the action field',
               href: 'https://freiwilligenhauptstadt.berlin/aktionsfelder/open-source',
             },
             {
               de: 'Zum Podcast',
-              en: 'Podcast',
+              en: 'To the podcast',
               href: 'https://radiocitylab.podigee.io',
             },
           ],
           title: {
             de: 'Aktionsfeld Open Source + Podcast',
-            en: 'Aktionsfeld Open Source + Podcast',
+            en: 'Open Source field of action & Radio CityLAB',
           },
           paragraph: {
-            de: 'Mit dem Aktionsfeld Open Source widmeten wir uns im Rahmen der Kampagne „Freiwilligenhaupstadt Berlin“ den vielen Facetten von Open Source Software und wie durch Open Source Demokratie gestärkt und Engagement gefördert werden kann. Begleitet wurde das Aktionsfeld durch Radio CityLAB - unser erster Podcast, der unter dem Titel “Open Source – Baustein einer demokratischen Technologiepolitik?” auf den gängigen Podcast-Plattformen zu finden ist.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            de: 'Mit dem Aktionsfeld Open Source widmeten wir uns im Rahmen der Kampagne „Freiwilligenhauptstadt Berlin“ den vielen Facetten von Open Source Software und wie durch Open Source Demokratie gestärkt und Engagement gefördert werden kann. Begleitet wurde das Aktionsfeld durch Radio CityLAB - unsere erste Podcastreihe, die unter dem Titel “Open Source – Baustein einer demokratischen Technologiepolitik?” auf den gängigen Podcast-Plattformen zu finden ist.',
+            en: 'As part of the campaign ‘European Volunteer Capital Berlin’’, we dedicated ourselves to the many facets of open source software and how open source can strengthen democracy and promote engagement. The action field was accompanied by Radio CityLAB – our first podcast, which can be found on the usual podcast platforms under the title ‘Open Source - Building Block of a Democratic Technology Policy?’',
           },
         },
         img: {
@@ -375,7 +367,7 @@ const content = {
           links: [
             {
               de: 'Zum Projekt',
-              en: 'Project',
+              en: 'To the project',
               href: 'https://stadtpuls.com ',
             },
           ],
@@ -384,8 +376,8 @@ const content = {
             en: 'Stadtpuls',
           },
           paragraph: {
-            de: 'Mit Stadtpuls haben wir eine offene Plattform für IoT-Projekte geschaffen, die dabei unterstützt, Sensordaten zu erfassen, zu visualisieren und für weitere Datenauswertungen bereitzustellen. So wie es Github für Open Source Software gibt, stellt Stadtpuls die Sensordaten von IoT-Devices (Internet of Things) frei zur Verfügung und bringt Maker (z.B. Hobbybastler:innen, Schulprojekte, Forschungstreibende, städtische Betriebe) und Taker (z.B. Data Scientists, Datenjournalisten, Wissenschafter:innen) zusammen.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            de: 'Mit Stadtpuls haben wir eine offene Plattform für IoT-Projekte geschaffen, die dabei unterstützt, Sensordaten zu erfassen, zu visualisieren und für weitere Datenauswertungen bereitzustellen. Stadtpuls stellt die Sensordaten von IoT-Devices (Internet of Things) frei zur Verfügung und bringt Maker (z.B. Hobbybastler:innen, Schulprojekte, Forschungstreibende, städtische Betriebe) und Taker (z.B. Data Scientists, Datenjournalisten, Wissenschafter:innen) zusammen. Mit dem Story-Feature könnt ihr in nullkommanix spannende Geschichten aus euren Daten erstellen und veröffentlichen.',
+            en: 'With Stadtpuls we have created an open platform for IoT (Internet of Things) projects that helps to collect sensor data, visualise it and make it available for further data analysis. Stadtpuls makes the sensor data of IoT devices freely available and brings together makers (e.g. hobbyists, school projects, researchers, municipal companies) and takers (e.g. data scientists, data journalists, scientists).',
           }
         },
         img: {
@@ -405,8 +397,8 @@ const content = {
             en: 'Summer School',
           },
           paragraph: {
-            de: 'Zwei Wochen lang widmeten sich Student:innen verschiedener Berliner Hochschulen in einer digitalen Summer School dem Thema Smart City. Dabei wurden experimentelle Prototypen konzipiert und gebaut und der Frage nachgegangen, welche ungenutzten Potenziale eng verwobene, digital gestützte, ökologische und soziale Systeme bieten.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            de: 'Zwei Wochen lang widmeten sich Student:innen verschiedener Berliner Hochschulen in einer digitalen Summer School der digitalen Transformation der Stadt. Dabei wurden experimentelle Prototypen konzipiert und gebaut und der Frage nachgegangen, welche ungenutzten Potenziale eng verwobene, digital gestützte, ökologische und soziale Systeme bieten.',
+            en: 'For a fortnight, students from various Berlin universities dedicated themselves to the topic of the smart city in a digital summer school. They designed and built experimental prototypes and explored the question of what untapped potential is offered by closely interwoven, digitally supported, ecological and social systems.',
           },
         },
         img: {
@@ -422,13 +414,13 @@ const content = {
         text: {
           links: [
             {
-              de: 'Projekt: Giess den Kiez',
-              en: 'Project: Giess den Kiez',
+              de: 'Zum Projekt Gieß den Kiez',
+              en: 'To the project Giess den Kiez',
               href: 'https://giessdenkiez.de/',
             },
             {
-              de: 'Projekt: QTrees',
-              en: 'Project: QTrees',
+              de: 'Zum Projekt QTrees',
+              en: 'To the project QTrees',
               href: 'https://qtrees.ai',
             },
           ],
@@ -437,8 +429,12 @@ const content = {
             en: 'Gieß den Kiez & QTrees',
           },
           paragraph: {
-            de: 'Unser Herzensprojekt Gieß den Kiez wurde 2021 einem Sprint unterzogen, sodass die Anwendung mit verbesserten Datenbankschema und Kartenkomponenten an warmen Tagen heiß laufen konnte. Neben Bäumen sprießte auch unser neues Projekt QTrees aus dem Boden. In dem Forschungsprojekt werden von Trockenheit gefährdete Stadtbäume mittels einer KI identifiziert. ',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            de: 'Unser Herzensprojekt Gieß den Kiez wurde 2021 einem Sprint unterzogen, sodass die Anwendung mit verbesserten Datenbankschema und Kartenkomponenten auch an warmen Tagen cool bleiben konnte. Neben Bäumen sprießte auch unser neues Baby “QTrees” aus dem Boden. In dem Forschungsprojekt sollen von Trockenheit gefährdete Stadtbäume mittels einer KI identifiziert werden.',
+            en: 'A project close to our hearts, Gieß den Kiez, underwent a sprint in 2021, allowing the application to stay cool on warm days with improved database schema and map components. Speaking of trees, our new project QTrees also sprouted from the ground. The research project uses AI to identify urban trees at risk from drought.',
+          },
+          funfact: {
+            de: `2021 wuchsen nicht nur die Bäume – auch unser Lab ist von <strong>18 auf 26 Mitarbeiter:innen</strong> gewachsen`,
+            en: `In 2021, not only the trees grew - our lab also grew from <strong>18 to 26 employees</strong>.`,
           },
         },
         img: {
@@ -453,22 +449,18 @@ const content = {
     id: '4.0',
     topic: {
       de: 'CityLAB hinter den Kulissen',
-      en: 'CityLAB backstage',
+      en: 'CityLAB Berlin – Behind the Scenes',
     },
     blocks: {
       intro: {
         title: {
           de: 'CityLAB hinter den Kulissen',
-          en: 'CityLAB backstage',
+          en: 'CityLAB Berlin – Behind the Scenes',
         },
         text: {
           de: 'Hinter den Kulissen wurde 2021 in unserem Lab umgebaut, kuratiert, gewerkelt und gestöpselt. Unsere neue Ausstellung eröffnete, Sensoren wurden in der Werkstatt gelötet, unsere Webseite bekam einen neuen Anstrich und so lange unser Lab “under construction” war, begrüßten wir euch digital in unserer Pixelwelt. ',
-          en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness <br/> <br/> No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.'
+          en: 'Behind the scenes in 2021, our Lab was rebuilt, curated, tinkered with and plugged in. Our new exhibition opened, sensors were soldered in the workshop, our website got a new coat of paint and as long as our Lab was "under construction", we welcomed you digitally in our pixel world.'
         }
-      },
-      funfact: {
-        de: `Damit Berlin immer up to date bleibt, twittern wir was das Zeug hält. <strong>575 Tweets</strong> setzen wir in 2021 ab.`,
-        en: `Funfact in english!`,
       },
     },
     items: [
@@ -480,17 +472,17 @@ const content = {
           links: [
             {
               de: 'Zur Video Playlist',
-              en: 'Video Playlist',
+              en: 'To the videos',
               href: 'https://www.youtube.com/playlist?list=PLRIKlbncTSl8ox4cymmvF5thOMUKoK6oq',
             },
           ],
           title: {
             de: 'Sommerfest',
-            en: 'Summer Festival',
+            en: 'Summerfest',
           },
           paragraph: {
             de: 'Unser digitales Sommerfest feierten wir mit sage und schreibe über 200 Teilnehmenden und das trotz 36 Grad und strahlend blauem Himmel! Wir tauchten gemeinsam mit euch in die Themen der Smart City ein und diskutierten, was diese Bezeichnung für Berlin bedeutet. Mit dabei waren die Staatssekretäre Dr. Frank Nägele und Christian Rickerts, sowie weitere internationale Gäste wie Gabriella Gomez-Mont, Skye Duncan, Prof. Dr. Sascha Friesike und viele mehr!',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            en: 'We celebrated our digital summerfest with no less than 200 participants, despite 36 degrees and a bright blue sky! Together with you, we dived into the topics of the Smart City and discussed what this term means for Berlin. We were joined by the State Secretaries Dr. Frank Nägele and Christian Rickerts, as well as other international guests such as Gabriella Gomez-Mont, Skye Duncan, Prof. Dr. Sascha Friesike and many more!',
           },
         },
         img: {
@@ -506,9 +498,14 @@ const content = {
         text: {
           links: [
             {
-              de: 'Zum Projekt',
-              en: 'Project Page',
-              href: 'https://citylab-berlin.org/de/projects/pixelwelt/ ',
+              de: 'Zur Pixelwelt',
+              en: 'To the pixelworld',
+              href: 'https://play.workadventu.re/@/citylab-berlin/citylab/map ',
+            },
+            {
+              de: 'Mehr Infos',
+              en: 'More information',
+              href: 'https://citylab-berlin.org/de/blog/pixellab-das-digitale-citylab/    ',
             },
           ],
           title: {
@@ -516,8 +513,8 @@ const content = {
             en: 'Pixelworld',
           },
           paragraph: {
-            de: 'Das Metaverse war gestern! Zu unserem Sommerfest verwandelten wir unseren Workspace in eine digitale Pixelwelt! Aus kleinen Pixeln haben wir wie aus Legosteinen ein 2D-Modell der Realität geschaffen, in dem sich Besucher:innen mit einem selbstkreierten Avatar frei bewegen können. Spieler:innen konnten mit Gegenständen interagieren, Projekte entdecken, überraschende  Sounds hören, unsere Ausstellung ließ sich virtuell erkunden und auf dem Flur konnte man sich per Videochat grüßen. So wurden nicht nur spontane soziale Interaktionen möglich, die Videospiel-Optik ließ außerdem die Erkundung unseres Arbeitsplatzes zu einem spielerischen und leicht zugänglichen Abenteuer werden.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            de: 'Das Metaverse war gestern! Zu unserem Sommerfest verwandelten wir unseren Workspace in eine digitale Pixelwelt! Aus kleinen Pixeln haben wir wie aus Legosteinen ein 2D-Modell der Realität geschaffen, in dem sich Besucher:innen mit einem selbstkreierten Avatar frei bewegen können. Spieler:innen konnten mit Gegenständen interagieren, Projekte entdecken, überraschende Sounds hören, unsere Ausstellung ließ sich virtuell erkunden und auf dem Flur konnte man sich per Videochat grüßen. So wurden nicht nur spontane soziale Interaktionen möglich, die Videospiel-Optik ließ außerdem die Erkundung unseres Arbeitsplatzes zu einem spielerischen und leicht zugänglichen Abenteuer werden.',
+            en: 'The Metaverse was yesterday! For our summerfest, we transformed our workspace into a digital pixel world! We created a 2D model of reality out of small pixels like Lego bricks, in which visitors could move freely with an avatar they had created themselves. Players could interact with objects, discover projects, listen to surprising sounds, virtually explore our exhibition and greet each other in the corridor via video chat. This not only enabled spontaneous social interactions, but the video game look also made exploring our workplace a playful and easily accessible adventure.',
           },
         },
         img: {
@@ -527,14 +524,14 @@ const content = {
         }
       },
       {
-        id: '5.3',
+        id: '4.3',
         theme: 'dark',
         align: 'left',
         text: {
           links: [
             {
               de: 'Mehr Infos',
-              en: 'More infos',
+              en: 'More information',
               href: 'https://citylab-berlin.org/de/exhibition/ ',
             }
           ],
@@ -543,9 +540,13 @@ const content = {
             en: 'Exhibition',
           },
           paragraph: {
-            de: 'Im September eröffnete unsere Ausstellung, die im ehemaligen Frühstücksraum des amerikanischen Offiziershotels in den Gebäuden des ehemaligen Flughafen Tempelhofs mit neuen Exponaten strahlt. Von innovativen Stadtmodellen über durstige Straßenbäume bis zu Mobilitätskonzepten der Zukunft gibt es einiges zu entdecken.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
-          }
+            de: 'Im September eröffnete unsere neue Ausstellung, die im ehemaligen Frühstücksraum des amerikanischen Offiziershotels bei uns in Tempelhof mit neuen Exponaten strahlt. Von innovativen Stadtmodellen über durstige Straßenbäume bis zu Mobilitätskonzepten der Zukunft gibt es einiges zu entdecken und auszuprobieren.',
+            en: `In September, our new exhibition opened, shining with new exhibits in the former breakfast room of the American officers' hotel with us in Tempelhof. From innovative city models to thirsty street trees and mobility concepts of the future, there's plenty to discover.`,
+          },
+          funfact: {
+            de: `Damit Berlin immer up to date bleibt, twittern wir was das Zeug hält. <strong>575 Tweets</strong> setzen wir in 2021 ab.`,
+            en: `To keep Berlin up to date, we tweet the heck out of it. <strong>575 tweets were sent</strong> in 2021.`,
+          },
         },
         img: {
           src: 'assets/images/4.3-ausstellung.jpg',
@@ -558,18 +559,18 @@ const content = {
   unterwegs: {
     id: '5.0',
     topic: {
-      de: 'CityLAB unterwegs',
-      en: 'CityLAB worldwide',
+      de: 'CityLAB Berlin unterwegs',
+      en: 'CityLAB Berlin on the Road',
     },
     blocks: {
       intro: {
         title: {
-          de: 'CityLAB unterwegs',
-          en: 'CityLAB worldwide',
+          de: 'CityLAB Berlin unterwegs',
+          en: 'CityLAB Berlin on the Road',
         },
         text: {
           de: 'Ob nach Barcelona zur Smart City World Expo, nach Wien zu den Digital Days 2021 oder das Heimspiel Creative Bureaucracy Festival in Berlin - 2021 waren wir digital als auch analog unterwegs und nahmen euch stets mit auf unsere Reisen.',
-          en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness <br/> <br/> No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.'
+          en: 'Whether in Barcelona for the Smart City World Expo, in Vienna for the Digital Days 2021 or at home for the Creative Bureaucracy Festival in Berlin - in 2021 we were on the road online as well as offline and always took you with us on our travels.'
         }
       }
     },
@@ -582,8 +583,13 @@ const content = {
           links: [
             {
               de: 'Zur Fotogalerie',
-              en: 'Photo galery',
+              en: 'To the photos',
               href: 'https://www.flickr.com/photos/182217318@N05/sets/72157720180665142/ ',
+            },
+            {
+              de: 'Zum Vortrag',
+              en: 'To the keynote',
+              href: 'https://www.youtube.com/watch?v=Yf2v_ZSdfVo ',
             },
           ],
           title: {
@@ -592,7 +598,7 @@ const content = {
           },
           paragraph: {
             de: 'Auf dem Smart City Expo World Congress in Barcelona verbrachten wir drei aufregende Tage und erhielten eine Menge Einblicke in die Weiten der Smart Cities. Abgerundet wurde das Programm durch unsere Berlin Smart City Night, bei der wir zunächst einer Keynote von Denis Roio alias Jaromil, CTO des EU-Projekts DECODE und anschließend einer KI Musik-Performance lauschten.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            en: 'We spent three exciting days at the Smart City Expo World Congress in Barcelona and gained a lot of insights into the vastness of smart cities. The programme was rounded off by our Berlin Smart City Night, where we first listened to a keynote by Denis Roio aka Jaromil, CTO of the EU project DECODE and then to an AI music performance.',
           },
         },
         img: {
@@ -608,23 +614,23 @@ const content = {
         text: {
           links: [
             {
-              de: 'Video Best Practices',
-              en: 'Video Best Practices',
+              de: 'Zum Video Best Practices',
+              en: 'To the video Best Practices',
               href: 'https://creativebureaucracy.org/discover/videos/citizen-initiatives-ppps-or-centralised-governance-best-practices-from-smart-cities-around-the-world/ ',
             },
             {
-              de: 'Video Roundtable',
-              en: 'Video Roundtable',
-              href: 'https://creativebureaucracy.org/discover/videos/governance-in-smart-cities-international-perspectives/ ',
+              de: 'Zum Video Roundtable',
+              en: 'To the video Roundtable',
+              href: 'https://creativebureaucracy.org/discover/videos/governance-in-smart-cities-international-perspectives/',
             },
           ],
           title: {
-            de: 'Creative Bureaucracy Festival',
-            en: 'Creative Bureaucracy Festival',
+            de: 'Berlin - Creative Bureaucracy Festival',
+            en: 'Berlin - Creative Bureaucracy Festival',
           },
           paragraph: {
-            de: 'Im Rahmen des Creative Bureaucracy Festivals bespielten wir den Smart City Governance Track und diskutierten mit verschiedenen internationalen Partner:innen, welches Potenzial verschiedene Governance Modelle für die Smart City Berlin haben. Die Highdarks findet ihr auf YouTube.',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            de: 'Im Rahmen des Creative Bureaucracy Festivals bespielten wir den Smart City Governance Track und diskutierten mit verschiedenen internationalen Partner:innen, welches Potenzial verschiedene Governance Modelle für die Smart City Berlin haben. Die Highlights findet ihr auf YouTube.',
+            en: 'As part of the Creative Bureaucracy Festival, we played on the Smart City Governance Track and discussed with various international partners the potential of different governance models for the Smart City Berlin. You can find the highlights on YouTube.',
           },
         },
         img: {
@@ -641,21 +647,21 @@ const content = {
           links: [
             {
               de: 'Zum Video',
-              en: 'Video',
-              href: 'https://www.smartcountry.berlin/de/programm/programmüberblick/',
+              en: 'To the video',
+              href: 'https://www.digitalcity.wien/digital-days-cx2021/cities-in-digital-know-how-exchange/',
             },
           ],
           title: {
-            de: 'Smart Country Convention',
-            en: 'Smart Country Convention',
+            de: 'Wien - Digital Days',
+            en: 'Wien - Digital Days',
           },
           paragraph: {
-            de: 'Auf der Smart Country Convention kamen die besten Köpfe Deutschlands aus Politik, Digitalwirtschaft und Wissenschaft zusammen, um sich zu Themen rund um eine moderne Verwaltung und digitale Städte auszutauschen. Da durfte natürlich auch das CityLAB nicht fehlen und wir pitchten unser Lab in nur 5 Minuten!',
-            en: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain. 1.',
+            de: 'Die Digital Days 2021 haben das Zusammenspiel zwischen Digitalisierung und Nachhaltigkeit in den Blick genommen und sich dabei auf die Frage konzentriert, wie digitale Tools und Services eine Stadt nachhaltiger und klimafreundlicher machen können! Was unser Leiter Dr. Benjamin Seibel dazu sagt, könnt ihr im folgendem Video ansehen:',
+            en: 'The Digital Days 2021 focused on the interplay between digitalisation and sustainability and how digital tools and services can make a city more sustainable and climate-friendly! You can see what our director Dr Benjamin Seibel has to say about this in the following video.',
           }
         },
         img: {
-          src: 'assets/images/5.2-smart-country-convention.jpg',
+          src: 'assets/images/5.2-digital-days-wien.jpg',
           alt: 'image tag',
           copyright: ''
         }

@@ -7,9 +7,9 @@ function Footer({content, lang}) {
       <div className={cn.logos}>
         {content.logos.map((d,i) => (
           <div key={`logo-key-${i}`} className={cx(cn.block, cn[d.className])}>
-            <span className={cn.label}>{d.label}</span>
+            <span className={cn.label}>{d.label[lang]}</span>
             <a className={cn.logoWrapper} href={d.href} target="_blank" rel="noreferrer">
-              <img src={d.src} alt={d.alt} />
+              <img src={d.src[lang]} alt={d.alt} />
             </a>
           </div>
         ))}

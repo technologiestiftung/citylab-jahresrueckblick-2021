@@ -11,7 +11,7 @@ import Icon from '../../components/Icon';
 import cx from 'classnames';
 
 import cn from './SmartCity.module.scss';
-import Funfact from '../../components/Funfact';
+// import Funfact from '../../components/Funfact';
 
 const setActiveTopicSelector = (s) => s.setActiveTopic;
 
@@ -33,7 +33,7 @@ function SmartCity({content, ui, lang}) {
         <Icon type="smartCity" />
         <Headline lang={lang} content={content.blocks.intro.title} />
         <Paragraph lang={lang} content={content.blocks.intro.text} />
-        <Funfact content={content.blocks.funfact} lang={lang}/>
+        {/* <Funfact content={content.blocks.funfact} lang={lang}/> */}
       </div>
       <ScrollableImages lang={lang} content={content} ui={ui}/>
     </section>

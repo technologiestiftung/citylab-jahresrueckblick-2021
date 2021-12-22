@@ -84,8 +84,8 @@ function Navbar({items, lang}) {
       <div id="labelWrapper" className={cx(cn.labelWrapper, {[cn.active]: isHovered})}>
         {activeLabel}
       </div>
-      {items.map(d => (
-        <>
+      {items.map((d,i) => (
+        <div key={`item-key-${i}`}>
           <div 
             ref={elementRef} 
             id={d.id}
@@ -96,7 +96,7 @@ function Navbar({items, lang}) {
           }>
             {icons[d.id].icon}
           </div>
-        </>
+        </div>
       ))}
       <div className={cn.divider} />
       <LanguageSwitch />

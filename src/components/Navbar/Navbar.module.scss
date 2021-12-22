@@ -18,7 +18,7 @@
     align-items: center;
   }
   .divider {
-    margin-left: 10px;
+    margin-left: 3px;
     width: 1px;
     height: 40px;
     background-color: $dark-grey--6;
@@ -67,6 +67,8 @@
     justify-content: center;
     // background-color: $dark-grey--7;
     margin: 0 3.5px;
+
+    color: $dark-grey--1;
 
     &.smartCity {
       svg {
