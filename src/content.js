@@ -544,7 +544,10 @@ const content = {
             {
               de: 'Mehr Infos',
               en: 'More information',
-              href: 'https://citylab-berlin.org/de/exhibition/ ',
+              href: {
+                en: 'https://citylab-berlin.org/en/exhibition/',
+                de: 'https://citylab-berlin.org/de/exhibition/'
+              },
             }
           ],
           title: {
