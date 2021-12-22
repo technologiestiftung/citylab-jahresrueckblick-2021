@@ -38,10 +38,8 @@
     }
   }
   .topline {
-    color: $dark-grey--2;
-    &.light {
-      color: white;
-    }
+    color: $dark-grey--1;
+    font-size: $font-size-s;
   }
   .id {
     font-size: $font-size-s;
