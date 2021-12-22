@@ -41,7 +41,7 @@ function App() {
     <div className={cn.app}>
       <Intro content={content.intro} lang={lang} />
       <Navbar items={navItems} lang={lang}/>
-      <section className={cn.layoutWrapper}>
+      <section className={cx(cn.layoutWrapper, cn.intro)}>
         <Headline lang={lang} content={content.intro.headline} />
         <Paragraph lang={lang} content={content.intro.text} />
       </section>
