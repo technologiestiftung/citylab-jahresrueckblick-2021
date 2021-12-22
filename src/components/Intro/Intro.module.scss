@@ -25,13 +25,13 @@
     
     @media screen and (min-width: $break-phablet-min) {
       width: 350px;
-      padding: 25px;
+      padding: 20px;
       left: calc(50% - 198px);
     }
     
     img {
       width: 130px;
-      margin: 0 auto;
+      margin: 0 auto 5px auto;
     }
 
     .headline {

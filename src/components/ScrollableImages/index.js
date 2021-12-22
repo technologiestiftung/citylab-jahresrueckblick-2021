@@ -38,7 +38,7 @@ function ScrollableImages({content, ui}) {
               <span className={cn.id}>{d.id}</span>
               <span className={cn.label}>{topic[lang]}</span>
             </div>
-            <h3 className={cn.title}>{d.text.title[lang]}</h3>
+            <h3 className={cn.title} dangerouslySetInnerHTML={{__html: d.text.title[lang]}}/>
             <p className={cn.text} dangerouslySetInnerHTML={{__html: d.text.paragraph[lang]}}></p>
             {d.text.funfact && <Funfact content={d.text.funfact} lang={lang}/>}
             {d.text?.links?.length > 0 && <h3  className={cn.subtitle}>{ui.moreLinks[lang]}</h3>}

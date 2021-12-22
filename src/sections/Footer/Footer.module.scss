@@ -18,18 +18,20 @@
   }
   .left {
     display: flex;
-    align-items: center;
+    align-items: start;
   }
   .item {
     margin-left: 10px;
   }
   .bottom {
     padding: 0 20px;
+    height: 100px;
     width: calc(100vw - 40px);
     display: flex;
     justify-content: space-between;
     .copyright {
       display: block;
+      margin-top: 10px;
     }
     .items {
       margin: 10px 0;

@@ -39,10 +39,10 @@ function App() {
   const navItems = getNavItems();
   return (
     <div className={cn.app}>
-      <Intro content={content.intro} lang={lang} />
+      <Intro content={content.header} lang={lang} />
       <Navbar items={navItems} lang={lang}/>
       <section className={cx(cn.layoutWrapper, cn.intro)}>
-        <Headline lang={lang} content={content.intro.headline} />
+        {/* <Headline lang={lang} content={content.intro.headline} /> */}
         <Paragraph lang={lang} content={content.intro.text} />
       </section>
       <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />

@@ -3,18 +3,24 @@ const content = {
     de: 'Das war’s mit unserem Jahresrückblick 2021! Wir schauen auf ein abwechslungsreiches Jahr zurück, das genauso vielfältig war wie Berlin selbst! Nun freuen wir uns auf 2022 und viele gemeinsame Projekte mit der Berliner Verwaltung und der gesamten Stadtgesellschaft. <br/> <br>Euer CityLAB Berlin der Herzen',
     en: `That's it for our annual annual review of 2021! We look back on an exciting year that was as diverse as Berlin itself! Now we are looking forward to 2022 and many joint projects with Berlin's public administration and the entire city society.<br/><br/>Your CityLAB Berlin of Hearts`
   },
-  intro: {
-    img: {
-      src: 'assets/images/intro.jpg',
-      alt: 'image tag',
-      copyright: ''
-    },
+  header: {
     headline: {
       de: 'Jahresrückblick 2021',
       en: 'Annual review 2021',
     },
+    img: {
+      src: 'assets/images/intro.jpg',
+      alt: 'image tag',
+      copyright: '© CityLAB Berlin'
+    },
+  },
+  intro: {
+    headline: {
+      de: 'Liebe Community,',
+      en: 'Dear community,',
+    },
     text: {
-      de: 'Liebe CityLAB Community,<br/><br/>2021 liegt hinter uns. Wir blicken zurück auf ein hybrides Jahr, in dem wir off- als auch online viele Projekte, Veranstaltungen und Ideen umgesetzt, einiges dazugelernt und Berlin einen digitalen Booster verpasst haben.<br/><br/>Egal ob es unser Online-Symposium mit über 400 Teilnehmenden war, Workshops zu digitalen Verwaltungsformularen oder neue Projekte wie Stadtpuls oder QTrees –  mit euch spielten wir die Klaviatur der digitalen Möglichkeiten auf und ab.<br/><br/>Digital ins Gepäck nahmen wir euch auch mit auf unsere Reisen -  auf das Creative Bureaucracy Festival, zu den Digital Days nach Wien oder nach Barcelona auf die Smart City World Expo.<br/><br/>ber auch zu Hause blieb es spannend  – denn ihr hattet die Qual der Wahl: Ob Ampel, RGR oder Smart City-Beteiligungsprozess: 2021 stand ganz unter dem Motto der Partizipation.<br/><br/>Was bei uns das Jahr über noch so los war zeigen wir euch in unserem Scrollytelling-Jahresrückblick. Denn während viele im Internet trollen, lassen wir euch lieber scrollen! 😉<br/><br/>Viel Spaß bei unserem Jahresrückblick 2021!',
+      de: 'Liebe CityLAB Community,<br/><br/>2021 liegt hinter uns. Wir blicken zurück auf ein hybrides Jahr, in dem wir off- als auch online viele Projekte, Veranstaltungen und Ideen umgesetzt, einiges dazugelernt und Berlin einen digitalen Booster verpasst haben.<br/><br/>Egal ob es unser Online-Symposium mit über 400 Teilnehmenden war, Workshops zu digitalen Verwaltungsformularen oder neue Projekte wie Stadtpuls oder QTrees –  mit euch spielten wir die Klaviatur der digitalen Möglichkeiten auf und ab.<br/><br/>Digital ins Gepäck nahmen wir euch auch mit auf unsere Reisen -  auf das Creative Bureaucracy Festival, zu den Digital Days nach Wien oder nach Barcelona auf die Smart City World Expo.<br/><br/>Aber auch zu Hause blieb es spannend  – denn ihr hattet die Qual der Wahl: Ob Ampel, RGR oder Smart City-Beteiligungsprozess: 2021 stand ganz unter dem Motto der Partizipation.<br/><br/>Was bei uns das Jahr über noch so los war zeigen wir euch in unserem Scrollytelling-Jahresrückblick. Denn während viele im Internet trollen, lassen wir euch lieber scrollen! 😉<br/><br/>Viel Spaß bei unserem Jahresrückblick 2021!',
       en: "2021 is behind us, and to acknowledge its passing, we'd like to take a moment to look back on a hybrid year in which we implemented various projects, events and ideas — both off and online — learned a lot, and gave Berlin a digital boost(er) of sorts.<br/><br/>Whether it was our online symposium with more than 400 participants, workshops on optimizing digital government forms, or new projects such as Stadtpuls or QTrees, we had the opportunity to explore a world of digital possibilities with you all.<br/><br/>We also were able to sneak you into our suitcase during our travels (both physical and digital) to events like the Creative Bureaucracy Festival, the Digital Days in Vienna and the Smart City World Expo in Barcelona.<br/><br/>Back home here in Berlin, things were just as exciting, because suddenly you were spoiled for choice: between the federal election, the Berlin state election and the smart city participation process, 2021 was all about participation and having your voice heard.<br/><br/>Interested to see just how much we got up to this year (and what you might have missed)? Read up on our year in review in our Scrollytelling story below.<br/><br/>Because while many people troll the internet, we prefer to let you scroll!<br/><br/>Enjoy our review of the year 2021!"
     }
   },
@@ -100,7 +106,7 @@ const content = {
     items: [
       {
         id: '1.1',
-        theme: 'dark',
+        theme: 'light',
         align: 'left',
         text: {
           links: [
@@ -122,7 +128,7 @@ const content = {
         img: {
           src: 'assets/images/1.1-smart-city-strategieprozess.jpg',
           alt: 'image tag',
-          copyright: ''
+          copyright: '© CityLAB Berlin'
         }
       },
       {
@@ -138,22 +144,22 @@ const content = {
             },
           ], 
           title: {
-            de: 'Symposium ‘Redefining the Smart City',
-            en: 'Symposium ‘Redefining the Smart City',
+            de: 'Symposium <br/> ‘Redefining the Smart City‘',
+            en: 'Symposium <br/> ‘Redefining the Smart City‘',
           },
           paragraph: {
             de: 'Unser internationales Smart City Symposium, das wir gemeinsam mit dem Centre for Digital Governance der Hertie School organisierten, gab einen Überblick über den aktuellen Stand der Forschung zu Smart Cities. Es bot allen, die sich für Smart Cities interessieren, ein Forum zum Zuhören, Lernen, Präsentieren und Diskutieren. Neben fast 400 Teilnehmenden begrüßten wir Staatssekretär Dr. Frank Nägele, Beth Simone Noveck, Francesca Bria, Ben Green, Brigitte Lutz und viele mehr im digitalen Berlin.',
             en: 'Our international Smart City Symposium, organized jointly with the Center for Digital Governance of the Hertie School, provided an overview of the current state of research on smart cities and offered everyone interested in smart cities a forum to listen, learn, present and discuss. In addition to almost 400 participants, we welcomed State Secretary Dr Frank Nägele, Beth Simone Noveck, Francesca Bria, Ben Green and Brigitte Lutz and many more to digital Berlin.',
           },
           funfact: {
-            de: `Das Symposium war nicht die einzige Veranstaltung in 2021. Über <strong>2700 Teilnehmende</strong> begrüßten wir bei unseren Events im vergangenen Jahr.`,
+            de: `Das Symposium war nicht die einzige Veranstaltung in 2021. Über <strong>2700 Teilnehmende</strong> begrüßten wir bei unseren <strong>93 Events</strong> im vergangenen Jahr.`,
             en: `The symposium was not the only event in 2021. We welcomed over <strong>2700 participants</strong> online and offline at our 93 events last year.`,
           },
         },
         img: {
           src: 'assets/images/1.2-symposium.jpg',
           alt: 'image tag',
-          copyright: ''
+          copyright: '© CityLAB Berlin'
         }
       },
     ]
@@ -189,7 +195,7 @@ const content = {
           links: [], 
           title: {
             de: 'Digitalwerkstatt Verwaltung',
-            en: 'Digital Workshop for Administration',
+            en: 'Digital Workshop <br/> for Administration',
           },
           paragraph: {
             de: 'Zusammen mit der Senatsverwaltung für Inneres und Sport organisierten wir im Oktober 2021 eine Reihe von Online-Workshops, bei denen wir gemeinsam mit 45 Bürger:innen Verwaltungsformulare testeten, Feedback sammelten und Ideen für Verbesserungen entwickelten. Die Ergebnisse der Workshops werden dafür genutzt, um aktuelle und zukünftige Formulare nutzerfreundlicher zu gestalten.',
@@ -199,12 +205,12 @@ const content = {
         img: {
           src: 'assets/images/2.1-digitalwerkstatt-verwaltung.jpg',
           alt: 'image tag',
-          copyright: '© Florian Reichert'
+          copyright: '© Florian Reimann'
         }
       },
       {
         id: '2.2',
-        theme: 'dark',
+        theme: 'light',
         align: 'right',
         text: {
           links: [], 
@@ -220,7 +226,7 @@ const content = {
         img: {
           src: 'assets/images/2.2-agenten-schulung.jpg',
           alt: 'image tag',
-          copyright: ''
+          copyright: '© CityLAB Berlin'
         }
       },
       {
@@ -240,12 +246,12 @@ const content = {
         img: {
           src: 'assets/images/2.3-afs-dashboard.jpg',
           alt: 'image tag',
-          copyright: '© Florian Reichert'
+          copyright: '© Florian Reimann'
         }
       },
       {
         id: '2.4',
-        theme: 'dark',
+        theme: 'light',
         align: 'right',
         text: {
           links: [
@@ -271,7 +277,7 @@ const content = {
         img: {
           src: 'assets/images/2.4-prototypen-werkstatt.jpg',
           alt: 'image tag',
-          copyright: ''
+          copyright: '© CityLAB Berlin'
         }
       },
     ]
@@ -297,14 +303,17 @@ const content = {
     items: [
       {
         id: '3.1',
-        theme: 'dark',
+        theme: 'light',
         align: 'left',
         text: {
           links: [
             {
               de: 'Zum Projekt',
               en: 'To the website',
-              href: 'https://www.digital-vereint.berlin/de',
+              href: {
+                de: 'https://www.digital-vereint.berlin/de',
+                en: 'https://www.digital-vereint.berlin/en',
+              },
             },
             {
               de: 'Zum Video',
@@ -336,7 +345,10 @@ const content = {
             {
               de: 'Zum Aktionsfeld',
               en: 'To the action field',
-              href: 'https://freiwilligenhauptstadt.berlin/aktionsfelder/open-source',
+              href: {
+                de: 'https://freiwilligenhauptstadt.berlin/aktionsfelder/open-source',
+                en: 'https://freiwilligenhauptstadt.berlin/en/activities/open-source',
+              },
             },
             {
               de: 'Zum Podcast',
@@ -345,7 +357,7 @@ const content = {
             },
           ],
           title: {
-            de: 'Aktionsfeld Open Source + Podcast',
+            de: 'Aktionsfeld Open Source & Radio CityLAB',
             en: 'Open Source field of action & Radio CityLAB',
           },
           paragraph: {
@@ -361,7 +373,7 @@ const content = {
       },
       {
         id: '3.3',
-        theme: 'dark',
+        theme: 'light',
         align: 'left',
         text: {
           links: [
@@ -383,7 +395,7 @@ const content = {
         img: {
           src: 'assets/images/3.3-stadtpuls.jpg',
           alt: 'image tag',
-          copyright: ''
+          copyright: '© CityLAB Berlin'
         }
       },
       {
@@ -440,7 +452,7 @@ const content = {
         img: {
           src: 'assets/images/3.5-giess-den-kiez.jpg',
           alt: 'image tag',
-          copyright: '© Florian Reichert'
+          copyright: '© Florian Reimann'
         }
       },
     ]
@@ -466,7 +478,7 @@ const content = {
     items: [
       {
         id: '4.1',
-        theme: 'dark',
+        theme: 'light',
         align: 'left',
         text: {
           links: [
@@ -488,7 +500,7 @@ const content = {
         img: {
           src: 'assets/images/4.1-sommerfest.jpg',
           alt: 'image tag',
-          copyright: ''
+          copyright: '© CityLAB Berlin'
         }
       },
       {
@@ -520,7 +532,7 @@ const content = {
         img: {
           src: 'assets/images/4.2-pixelworld.jpg',
           alt: 'image tag',
-          copyright: ''
+          copyright: '© CityLAB Berlin'
         }
       },
       {
@@ -551,7 +563,7 @@ const content = {
         img: {
           src: 'assets/images/4.3-ausstellung.jpg',
           alt: 'image tag',
-          copyright: '© Florian Reichert'
+          copyright: '© Florian Reimann'
         }
       },
     ]
@@ -636,7 +648,7 @@ const content = {
         img: {
           src: 'assets/images/5.2-creative-bureaucracy-festival.jpg',
           alt: 'image tag',
-          copyright: ''
+          copyright: '© CityLAB Berlin'
         }
       },
       {
@@ -663,7 +675,7 @@ const content = {
         img: {
           src: 'assets/images/5.2-digital-days-wien.jpg',
           alt: 'image tag',
-          copyright: ''
+          copyright: '© CityLAB Berlin'
         }
       },
     ]
