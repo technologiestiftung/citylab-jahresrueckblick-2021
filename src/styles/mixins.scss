@@ -75,7 +75,6 @@ $fix-mqs-h: false !default;
 
 @mixin font-large {
   font-size: (19 / 16) * 1rem;
-  // letter-spacing: $letter-spacing-m;
 
   @include respond-min($break-tablet-min) {
     font-size: (21 / 16) * 1rem;
@@ -84,7 +83,6 @@ $fix-mqs-h: false !default;
 
 @mixin font-extra-large {
   font-size: (24 / 16) * 1rem;
-  // letter-spacing: $letter-spacing-m;
 
   @include respond-min($break-tablet-min) {
     font-size: (27 / 16) * 1rem;

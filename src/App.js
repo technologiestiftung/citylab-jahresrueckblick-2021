@@ -17,7 +17,6 @@ import Footer from './sections/Footer';
 import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 import Paragraph from './components/Paragraph';
-import Headline from './components/Headline';
 
 const langSelector = (s) => s.lang;
 
