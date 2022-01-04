@@ -1,7 +1,7 @@
 const content = {
   outtro: {
-    de: "Das war’s mit unserem Jahresrückblick 2021! Wir schauen auf ein abwechslungsreiches Jahr zurück, das genauso vielfältig war wie Berlin selbst! Nun freuen wir uns auf 2022 und viele gemeinsame Projekte mit der Berliner Verwaltung und der gesamten Stadtgesellschaft. <br/> <br>Euer CityLAB Berlin der Herzen",
-    en: `And with that, we close out our look back on a year that was just as thrilling and diverse as Berlin itself! Now we are looking forward to 2022 and all of the collaborative projects with Berlin's city administration and the entire city society the year will have in store for us.<br/><br/>Your CityLAB Berlin`,
+    de: "Das war’s mit unserem Rückblick 2021! Wir schauen auf ein abwechslungsreiches Jahr zurück, das genauso vielfältig war wie Berlin selbst! Nun freuen wir uns auf 2022 und viele gemeinsame Projekte mit der Berliner Verwaltung und der Stadtgesellschaft. <br/> <br>Euer CityLAB Berlin der Herzen",
+    en: `And with that, we close out our look back on a year that was just as thrilling and diverse as Berlin itself! Now we are looking forward to 2022 and all of the collaborative projects with Berlin's city administration and the city society the year will have in store for us.<br/><br/>Your CityLAB Berlin`,
   },
   header: {
     headline: {
@@ -152,8 +152,8 @@ const content = {
             en: "Our international Smart City Symposium, organized jointly with the Center for Digital Governance of the Hertie School, provided an overview of the current state of research on smart cities and offered everyone interested in smart cities an opportunity to listen, learn, present and discuss. In addition to almost 400 participants from around the globe, we welcomed State speakers like Secretary Dr Frank Nägele, Beth Simone Noveck, Francesca Bria, Ben Green, Brigitte Lutz and many more to digital Berlin.",
           },
           funfact: {
-            de: "Das Symposium war nicht die einzige Veranstaltung in 2021. Über <strong>2700 Teilnehmende</strong> begrüßten wir bei unseren <strong>93 Events</strong> im vergangenen Jahr.",
-            en: "The symposium was not the only event in 2021. We welcomed more than <strong>2700 participants</strong> to 93 different online and offline events last year.",
+            de: "Das Symposium war nicht die einzige Veranstaltung in 2021. Über <strong>2700 Teilnehmende</strong> begrüßten wir bei unseren <strong>94 Events</strong> im vergangenen Jahr.",
+            en: "The symposium was not the only event in 2021. We welcomed more than <strong>2700 participants</strong> to 94 different online and offline events last year.",
           },
         },
         img: {
@@ -198,7 +198,7 @@ const content = {
             en: "Digital Workshop <br/> for Administration",
           },
           paragraph: {
-            de: "Zusammen mit der Senatsverwaltung für Inneres und Sport organisierten wir im Oktober 2021 eine Reihe von Online-Workshops, bei denen wir gemeinsam mit Bürger:innen Verwaltungsformulare testeten, Feedback sammelten und Ideen für Verbesserungen entwickelten. Die Ergebnisse der Workshops werden dafür genutzt, um aktuelle und zukünftige Formulare nutzerfreundlicher zu gestalten.",
+            de: "Zusammen mit der Senatsverwaltung für Inneres und Sport organisierten wir im Oktober 2021 eine Reihe von Online-Workshops, bei denen wir gemeinsam mit Bürger:innen Verwaltungsformulare testeten, Feedback sammelten und Ideen für Verbesserungen entwickelten. Die Ergebnisse der Workshops werden dafür genutzt, um aktuelle und zukünftige Formulare nutzer:innenfreundlicher zu gestalten.",
             en: "In October 2021, in collaboration with the Senate Department for Internal Affairs and Sport, we organised a series of online workshops where we worked with citizens to test and optimize administrative forms. The results of the workshops will be used to make current and future forms more user-friendly.",
           },
         },
@@ -219,7 +219,7 @@ const content = {
             en: "Service Agent Training",
           },
           paragraph: {
-            de: "In Zusammenarbeit mit Daniela Hensel, Professorin für Design an der HTW Berlin und Johanna Götz, wissenschaftliche Mitarbeiterin an der HTW Berlin, riefen wir eine mehrteilige “Service Agenten”-Schulung für Verwaltungsbeschäftigte ins Leben, die zum Ziel hat, eine stärkere Nutzerorientierung und Methoden des Service Designs in der Verwaltung zu verankern. Dabei wurden Verwaltungsangestellte mit einem breiten Werkzeugkasten an Methoden ausgestattet, den sie im Transfer auf weitere Projekte anwenden können.",
+            de: "In Zusammenarbeit mit Daniela Hensel, Professorin für Design an der HTW Berlin und Johanna Götz, wissenschaftliche Mitarbeiterin an der HTW Berlin, riefen wir eine mehrteilige “Service Agenten”-Schulung für Verwaltungsbeschäftigte ins Leben, die zum Ziel hat, eine stärkere Nutzer:innenorientierung und Methoden des Service Designs in der Verwaltung zu verankern. Dabei wurden Verwaltungsangestellte mit einem breiten Werkzeugkasten an Methoden ausgestattet, den sie im Transfer auf weitere Projekte anwenden können.",
             en: 'In cooperation with Daniela Hensel, professor of design at the HTW Berlin, and Johanna Götz, research assistant at the HTW Berlin, we started a multi-part "service agent" training for city employees with the aim of increasing understanding for user-centered design as well as general service design methods within governmental contexts. Throughout the program, participants gained first-hand exposure to a variety of service design principles and methodologies that they could then directly apply to their everyday work as well as future projects.',
           },
         },
@@ -270,8 +270,8 @@ const content = {
             en: "In the prototype workshop, we supported the city administration with the digitisation of small-scale IT processes. Together with the Berlin IT Service Centre (ITDZ), we have developed digital prototypes to support the replacement of hundreds of these small-scale processes (that previously existed solely in Microsoft Excel or Access, for example). In addition to the development of prototypes, this project also aims to build up digital expertise in the city government and offer concrete suggestions for how to improve and modernize digital processes. This project emphasizes agile work processes in which prototypes are developed iteratively and in close consultation with the actors involved.",
           },
           funfact: {
-            de: `Frischen Wind bringt auch unser Handbuch Öffentliches Gestalten in die Verwaltung. 2021 wurden unsere letzten <strong>227 Exemplare</strong> verschickt. Keine Sorge, Nachschub ist unterwegs!`,
-            en: `Our Public Design Handbook also brings a breath of fresh air to the administration. In 2021, we sent out our last <strong>227 copies.</strong>  But don't worry — a new shipment is already on the way.`,
+            de: `Frischen Wind bringt auch unser Handbuch Öffentliches Gestalten in die Verwaltung. 2021 wurden unsere letzten <strong>227 von 700 Exemplare</strong> verschickt. Keine Sorge, Nachschub ist unterwegs!`,
+            en: `Our Public Design Handbook also brings a breath of fresh air to the administration. In 2021, we sent out our last <strong>227 of 700  scopies.</strong>  But don't worry — a new shipment is already on the way.`,
           },
         },
         img: {
@@ -295,8 +295,8 @@ const content = {
           en: "The City and Us",
         },
         text: {
-          de: "Ein CityLAB wäre nichts ohne eine City. Zum Glück ist mit Berlin eine der tollsten Städte der Welt unser Experimentierfeld. Das Herz der Stadt bilden die Bewohner:innen, deren Vielfältigkeit und Kreativität uns immer wieder motiviert, in alle Richtungen zu denken und neue Wege zu beschreiten. Die Covid-19-Pandemie hat uns noch einmal vor Augen geführt, wie wichtig gesellschaftlicher Zusammenhalt, eine lebendige Demokratie und gemeinsam geteiltes Wissen ist. Dies spiegelt sich auch in unseren Projekten wieder.",
-          en: "A CityLAB would be nothing without a city and luckily Berlin, one of the greatest cities in the world, is our field of experimentation. At the heart of our city are the citizens, whose diversity constantly motivates us to think in all possible directions and break new ground. The Covid-19 pandemic has shown us once again the importance of civil solidarity, a living democracy and shared knowledge. This is also reflected in our projects.",
+          de: "Ein Stadtlabor wäre nichts ohne eine Stadt. Zum Glück ist mit Berlin eine der tollsten Städte der Welt unser Experimentierfeld. Das Herz der Stadt bilden die Bewohner:innen, deren Vielfältigkeit und Kreativität uns immer wieder motiviert, in alle Richtungen zu denken und neue Wege zu beschreiten. Die Covid-19-Pandemie hat uns noch einmal vor Augen geführt, wie wichtig gesellschaftlicher Zusammenhalt, eine lebendige Demokratie und gemeinsam geteiltes Wissen ist. Dies spiegelt sich auch in unseren Projekten wieder.",
+          en: "A CityLab would be nothing without a city and luckily Berlin, one of the greatest cities in the world, is our field of experimentation. At the heart of our city are the citizens, whose diversity constantly motivates us to think in all possible directions and break new ground. The Covid-19 pandemic has shown us once again the importance of civil solidarity, a living democracy and shared knowledge. This is also reflected in our projects.",
         },
       },
     },
@@ -361,8 +361,8 @@ const content = {
             en: "Open Source field of action & Radio CityLAB",
           },
           paragraph: {
-            de: "Mit dem Aktionsfeld Open Source widmeten wir uns im Rahmen der Kampagne „Freiwilligenhauptstadt Berlin“ den vielen Facetten von Open Source Software und wie durch Open Source Demokratie gestärkt und Engagement gefördert werden kann. Begleitet wurde das Aktionsfeld durch Radio CityLAB - unsere erste Podcastreihe, die unter dem Titel “Open Source – Baustein einer demokratischen Technologiepolitik?” auf den gängigen Podcast-Plattformen zu finden ist.",
-            en: 'As part of the campaign ‘European Volunteer Capital Berlin’, we dedicated ourselves to the many facets of open source software and how open source can strengthen democracy and promote engagement. This so-called "action field" was accompanied by Radio CityLAB – our first foray into the world of podcasting. You can listen to our initial episodes on open source on all the usual podcast platforms under the title ‘Open Source – Building Block of a Democratic Technology Policy?’.',
+            de: "Mit dem Aktionsfeld Open Source widmeten wir uns im Rahmen der Kampagne „Europäische Freiwilligenhauptstadt“ den vielen Facetten von Open Source Software und wie durch Open Source Demokratie gestärkt und Engagement gefördert werden kann. Begleitet wurde das Aktionsfeld durch Radio CityLAB - unsere erste Podcastreihe, die unter dem Titel “Open Source – Baustein einer demokratischen Technologiepolitik?” auf den gängigen Podcast-Plattformen zu finden ist.",
+            en: 'As part of the campaign ‘European Volunteer Capital’, we dedicated ourselves to the many facets of open source software and how open source can strengthen democracy and promote engagement. This so-called "action field" was accompanied by Radio CityLAB – our first foray into the world of podcasting. You can listen to our initial episodes on open source on all the usual podcast platforms under the title ‘Open Source – Building Block of a Democratic Technology Policy?’.',
           },
         },
         img: {
@@ -460,18 +460,18 @@ const content = {
   hinterDenKulissen: {
     id: "4.0",
     topic: {
-      de: "CityLAB Berlin – Hinter den Kulissen",
-      en: "CityLAB Berlin – Behind the Scenes",
+      de: "CityLAB Berlin @home",
+      en: "CityLAB Berlin @home",
     },
     blocks: {
       intro: {
         title: {
-          de: "CCityLAB Berlin – Hinter den Kulissen",
-          en: "CityLAB Berlin – Behind the Scenes",
+          de: "CityLAB Berlin @home",
+          en: "CityLAB Berlin @home",
         },
         text: {
-          de: "Hinter den Kulissen wurde 2021 in unserem Lab umgebaut, kuratiert, gewerkelt und gestöpselt. Unsere neue Ausstellung eröffnete, Sensoren wurden in der Werkstatt gelötet, unsere Webseite bekam einen neuen Anstrich und so lange unser Lab “under construction” war, begrüßten wir euch digital in unserer Pixelwelt. ",
-          en: 'Behind the scenes in 2021, our Lab was rebuilt, curated, tinkered with and plugged in. Our new exhibition opened, sensors were soldered in the workshop, our website got a new coat of paint, and as long as our Lab was "under construction", we offered you the chance to visit us digitally in our newly created pixel world.',
+          de: "In unserem Lab wurde 2021 umgebaut, kuratiert, gewerkelt und gestöpselt. Unsere neue Ausstellung eröffnete, Sensoren wurden in der Werkstatt gelötet, unsere Webseite bekam einen neuen Anstrich und so lange unser Lab “under construction” war, begrüßten wir euch digital in unserer Pixelwelt. ",
+          en: 'In 2021, our Lab was rebuilt, curated, tinkered with and plugged in. Our new exhibition opened, sensors were soldered in the workshop, our website got a new coat of paint, and as long as our Lab was "under construction", we offered you the chance to visit us digitally in our newly created pixel world.',
         },
       },
     },
@@ -493,8 +493,8 @@ const content = {
             en: "Summerfest",
           },
           paragraph: {
-            de: "Unser digitales Sommerfest feierten wir mit sage und schreibe über 200 Teilnehmenden und das trotz 36 Grad und strahlend blauem Himmel! Wir tauchten gemeinsam mit euch in die Themen der Smart City ein und diskutierten, was diese Bezeichnung für Berlin bedeutet. Mit dabei waren die Staatssekretäre Dr. Frank Nägele und Christian Rickerts, sowie weitere internationale Gäste wie Gabriella Gomez-Mont, Skye Duncan, Prof. Dr. Sascha Friesike und viele mehr!",
-            en: "We celebrated our digital summerfest with no fewer than 200 participants, despite it being 36 degrees outside with a bright blue sky! Together with you, we dived into the topics of the Smart City and discussed what this term means for Berlin. We were joined by the State Secretaries Dr. Frank Nägele and Christian Rickerts, as well as various international guests, such as Gabriella Gomez-Mont, Skye Duncan, Prof. Dr. Sascha Friesike and many more!",
+            de: "Unser digitales Sommerfest feierten wir mit sage und schreibe über 200 Teilnehmenden und das trotz 36 Grad und strahlend blauem Himmel! Wir tauchten gemeinsam mit euch in die Themen der Smart City ein und diskutierten, was diese Bezeichnung für Berlin bedeutet. Mit dabei waren die Staatssekretäre Dr. Frank Nägele und Christian Rickerts, sowie weitere nationale und internationale Gäste wie Gabriella Gomez-Mont, Skye Duncan, Prof. Dr. Sascha Friesike!",
+            en: "We celebrated our digital summerfest with no fewer than 200 participants, despite it being 36 degrees outside with a bright blue sky! Together with you, we dived into the topics of the Smart City and discussed what this term means for Berlin. We were joined by the State Secretaries Dr. Frank Nägele and Christian Rickerts, as well as various national and international guests, such as Gabriella Gomez-Mont, Skye Duncan, Prof. Dr. Sascha Friesike!",
           },
         },
         img: {
@@ -521,12 +521,12 @@ const content = {
             },
           ],
           title: {
-            de: "Pixelworld",
+            de: "Pixelwelt",
             en: "Pixelworld",
           },
           paragraph: {
-            de: "Das Metaverse war gestern! Zu unserem Sommerfest verwandelten wir unseren Workspace in eine digitale Pixelwelt! Aus kleinen Pixeln haben wir wie aus Legosteinen ein 2D-Modell der Realität geschaffen, in dem sich Besucher:innen mit einem selbstkreierten Avatar frei bewegen können. Spieler:innen konnten mit Gegenständen interagieren, Projekte entdecken, überraschende Sounds hören, unsere Ausstellung ließ sich virtuell erkunden und auf dem Flur konnte man sich per Videochat grüßen. So wurden nicht nur spontane soziale Interaktionen möglich, die Videospiel-Optik ließ außerdem die Erkundung unseres Arbeitsplatzes zu einem spielerischen und leicht zugänglichen Abenteuer werden.",
-            en: "The Metaverse is so yesterday! For our summerfest, we transformed our workspace into a digital pixel world: We created a 2D model of reality out of small pixels — just like Lego bricks — through  which visitors could move freely with a self-designed avatar. Players could interact with objects, discover projects, listen to surprising sounds, virtually explore our exhibition and greet each other in the corridor via video chat. This not only enabled spontaneous social interactions, but the video game look also made exploring our workplace a playful and easily accessible adventure.",
+            de: "Das Metaverse war gestern! Zu unserem Sommerfest verwandelten wir unseren Workspace in eine digitale Pixelwelt! Aus kleinen Pixeln haben wir wie aus Legosteinen ein 2D-Modell der Realität geschaffen, in dem sich Besucher:innen mit einem selbstkreierten Avatar frei bewegen können. Spieler:innen können mit Gegenständen interagieren, Projekte entdecken, überraschende Sounds hören, unsere Ausstellung lässt sich virtuell erkunden und auf dem Flur kann man sich per Videochat grüßen. So werden nicht nur spontane soziale Interaktionen möglich, die Videospiel-Optik lässt außerdem die Erkundung unseres Arbeitsplatzes zu einem spielerischen und leicht zugänglichen Abenteuer werden.",
+            en: "The Metaverse is so yesterday! For our summerfest, we transformed our workspace into a digital pixel world: We created a 2D model of reality out of small pixels — just like Lego bricks — through which visitors could move freely with a self-designed avatar. Players could interact with objects, discover projects, listen to surprising sounds, virtually explore our exhibition and greet each other in the corridor via video chat. This not only enabled spontaneous social interactions, but the video game look also made exploring our workplace a playful and easily accessible adventure.",
           },
         },
         img: {
@@ -559,7 +559,7 @@ const content = {
             en: `In September, our exhibition got a bit of a face-lift and is now shining with new exhibits in what was once a breakfast room for American officers, back when the CityLAB's current space was still being used as an officers' hotel. From innovative city models to thirsty street trees and mobility concepts of the future, there's plenty to discover. `,
           },
           funfact: {
-            de: `Damit Berlin immer up to date bleibt, twittern wir was das Zeug hält. <strong>575 Tweets</strong> setzen wir in 2021 ab.`,
+            de: `Damit Berlin immer up to date bleibt, twittern wir was das Zeug hält. <strong>575 Tweets</strong> setzten wir in 2021 ab.`,
             en: `To keep Berlin up to date, we tweet the heck out of it. We sent <strong>575 tweets</strong> in 2021.`,
           },
         },
@@ -629,12 +629,12 @@ const content = {
         text: {
           links: [
             {
-              de: "Zum Video Best Practices",
+              de: "Zur Aufzeichnung Best Practices",
               en: "To the video Best Practices",
               href: "https://creativebureaucracy.org/discover/videos/citizen-initiatives-ppps-or-centralised-governance-best-practices-from-smart-cities-around-the-world/ ",
             },
             {
-              de: "Zum Video Governance in Smart Cities",
+              de: "Zur Aufzeichnung Governance in Smart Cities",
               en: "To the Video Governance in smart cities",
               href: "https://creativebureaucracy.org/discover/videos/governance-in-smart-cities-international-perspectives/",
             },
@@ -644,7 +644,7 @@ const content = {
             en: "Berlin - Creative Bureaucracy Festival",
           },
           paragraph: {
-            de: "Im Rahmen des Creative Bureaucracy Festivals bespielten wir den Smart City Governance Track und diskutierten mit verschiedenen internationalen Partner:innen, welches Potenzial verschiedene Governance Modelle für die Smart City Berlin haben. Die Highlights findet ihr auf YouTube.",
+            de: "Im Rahmen des Creative Bureaucracy Festivals bespielten wir den Smart City Governance Track und diskutierten mit verschiedenen internationalen Partner:innen, welches Potenzial verschiedene Governance-Modelle für die Smart City Berlin haben. Die Highlights findet ihr auf YouTube.",
             en: "As part of the Creative Bureaucracy Festival, we curated the Smart City Governance Track and discussed the potential of different governance models for a Smart City Berlin with various international partners. You can find the highlights on YouTube.",
           },
         },
