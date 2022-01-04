@@ -20,12 +20,12 @@ const content = {
       en: "Dear community,",
     },
     text: {
-      de: "Liebe CityLAB Community,<br/><br/>2021 liegt hinter uns. Wir blicken zurück auf ein hybrides Jahr, in dem wir off- als auch online viele Projekte, Veranstaltungen und Ideen umgesetzt, einiges dazugelernt und Berlin einen digitalen Booster verpasst haben.<br/><br/>Egal ob es unser Online-Symposium mit über 400 Teilnehmenden war, Workshops zu digitalen Verwaltungsformularen oder neue Projekte wie Stadtpuls oder QTrees –  mit euch spielten wir die Klaviatur der digitalen Möglichkeiten auf und ab.<br/><br/>Digital ins Gepäck nahmen wir euch auch mit auf unsere Reisen -  auf das Creative Bureaucracy Festival, zu den Digital Days nach Wien oder nach Barcelona auf die Smart City World Expo.<br/><br/>Aber auch zu Hause blieb es spannend  – denn ihr hattet die Qual der Wahl: Ob Ampel, RGR oder Smart City-Beteiligungsprozess: 2021 stand ganz unter dem Motto der Partizipation.<br/><br/>Was bei uns das Jahr über noch so los war zeigen wir euch in unserem Scrollytelling-Jahresrückblick. Denn während viele im Internet trollen, lassen wir euch lieber scrollen! 😉<br/><br/>Viel Spaß bei unserem Jahresrückblick 2021!",
-      en: "Dear community,<br/><br/> 2021 is behind us, and to acknowledge its passing, we'd like to take a moment to look back on a hybrid year in which we implemented various projects, events and ideas — both off and online — learned a lot, and gave Berlin a digital boost(er) of sorts.<br/><br/>Whether it was our online symposium with more than 400 participants, workshops on optimizing digital government forms, or new projects such as Stadtpuls or QTrees, we had the opportunity to explore a world of digital possibilities with you all.<br/><br/>We also were able to sneak you into our suitcase during our travels (both physical and digital) to events like the Creative Bureaucracy Festival, the Digital Days in Vienna and the Smart City World Expo in Barcelona.<br/><br/>Back home here in Berlin, things were just as exciting, because suddenly you were spoiled for choice: between the federal election, the Berlin state election and the smart city participation process, 2021 was all about participation and having your voice heard.<br/><br/>Interested to see just how much we got up to this year (and what you might have missed)? Read up on our year in review in our Scrollytelling story below.<br/><br/>Enjoy our review of the year 2021!",
+      de: "Liebe CityLAB Community,<br/><br/>2021 liegt hinter uns. Wir blicken zurück auf ein hybrides Jahr, in dem wir off- als auch online viele Projekte, Veranstaltungen und Ideen umgesetzt, einiges dazugelernt und Berlin einen digitalen Booster verpasst haben.<br/><br/>Egal ob es unser Online-Symposium mit über 400 Teilnehmenden war, Workshops zu digitalen Verwaltungsformularen oder neue Projekte wie Stadtpuls oder unsere Prototypenwerkstatt –  mit euch spielten wir die Klaviatur der digitalen Möglichkeiten auf und ab.<br/><br/>Digital ins Gepäck nahmen wir euch auch mit auf unsere Reisen -  auf das Creative Bureaucracy Festival, zu den Digital Days nach Wien oder nach Barcelona auf die Smart City World Expo.<br/><br/>Aber auch zu Hause blieb es spannend  – denn ihr hattet die Qual der Wahl: Ob Ampel, RGR oder Smart City-Beteiligungsprozess: 2021 stand ganz unter dem Motto der Partizipation.<br/><br/>Was bei uns das Jahr über noch so los war zeigen wir euch in unserem Scrollytelling-Jahresrückblick. Denn während viele im Internet trollen, lassen wir euch lieber scrollen! 😉<br/><br/>Viel Spaß bei unserem Jahresrückblick 2021!",
+      en: "Dear community,<br/><br/> 2021 is behind us, and to acknowledge its passing, we'd like to take a moment to look back on a hybrid year in which we implemented various projects, events and ideas — both off and online — learned a lot, and gave Berlin a digital boost(er) of sorts.<br/><br/>Whether it was our online symposium with more than 400 participants, workshops on optimizing digital government forms, or new projects such as Stadtpuls or our prototype workshop, we had the opportunity to explore a world of digital possibilities with you all.<br/><br/>We also were able to sneak you into our suitcase during our travels (both physical and digital) to events like the Creative Bureaucracy Festival, the Digital Days in Vienna and the Smart City World Expo in Barcelona.<br/><br/>Back home here in Berlin, things were just as exciting, because suddenly you were spoiled for choice: between the federal election, the Berlin state election and the smart city participation process, 2021 was all about participation and having your voice heard.<br/><br/>Interested to see just how much we got up to this year (and what you might have missed)? Read up on our year in review in our Scrollytelling story below.<br/><br/>Enjoy our review of the year 2021!",
     },
   },
   footer: {
-    copyright: "© 2021 Technologiestiftung Berlin",
+    copyright: "© 2022 Technologiestiftung Berlin",
     impressum: {
       de: "Impressum",
       en: "Impressum",
@@ -239,7 +239,7 @@ const content = {
             en: "AfS Dashboard",
           },
           paragraph: {
-            de: "In vielen Bereichen der Berliner Verwaltung werden zahlreiche Daten zu diversen Leistungen erhoben und gespeichert, doch mangelt es an einer einheitlichen Darstellungsmethode dieser Daten. Im Rahmen von Design Sprints unterstützten wir das Amt für Statistik (AfS) und die Senatskanzlei bei der Konzeption einer zentralen Dashboardlösung, die in unterschiedlichen Verwaltungsbereichen und Kontexten zum Einsatz kommen soll. Daten könnten dadurch leichter präsentiert und zugänglich gemacht werden, auch die verwaltungsübergreifende Zusammenarbeit wird erleichtert.",
+            de: "In vielen Bereichen der Berliner Verwaltung werden zahlreiche Daten zu diversen Leistungen erhoben und gespeichert, doch mangelt es an einer einheitlichen Darstellungsmethode. Im Rahmen von Design Sprints unterstützten wir das Amt für Statistik (AfS) und die Senatskanzlei bei der Konzeption einer zentralen Dashboardlösung, die in unterschiedlichen Verwaltungsbereichen und Kontexten zum Einsatz kommen soll. Daten könnten dadurch leichter präsentiert und zugänglich gemacht werden, auch die verwaltungsübergreifende Zusammenarbeit wird erleichtert.",
             en: "Many city government departments collect and store significant amounts of data on various services, but there currently is no central or standardized solution for combining and presenting this data. Through a series of design sprints, we supported the Berlin-Brandenburg Office for Statistics (Amt für Statistik Berlin-Brandenburg) and the Berlin Senate Chancellery in developing a central dashboard solution that could be used in different administrative areas and contexts. Such a solution would allow data to be presented and made accessible across departments, as well as enable more cross-department collaborations. ",
           },
         },
@@ -266,7 +266,7 @@ const content = {
             en: "Prototype Workshop",
           },
           paragraph: {
-            de: "Im Rahmen der Prototypenwerkstatt unterstützten wir die Berliner Verwaltung bei der Digitalisierung von IT-Kleinstverfahren. Hierbei werden in Kooperation mit dem Berliner IT-Dienstleistungszentrum (ITDZ) digitale Prototypen entwickelt, die bei der Modernisierung von hunderten IT-Kleinstverfahren der Berliner Verwaltung unterstützen. Die nachhaltige Vermittlung von Methodenkompetenzen in der digitalen Verwaltung sowie Empfehlungen bezüglich der Verbesserung von Prozessen runden den Prozeß ab. <br/>Das Vorgehen nutzt agile Arbeitsprozesse, in dem Prototypen iterativ und in enger Abstimmung mit den beteiligten Akteur:innen entwickelt werden.",
+            de: "Im Rahmen der Prototypenwerkstatt unterstützten wir die Berliner Verwaltung bei der Digitalisierung von IT-Kleinstverfahren. Hierbei werden in Kooperation mit dem Berliner IT-Dienstleistungszentrum (ITDZ) digitale Prototypen entwickelt, die Alternativen zu veralteten Excel- und Access-Anwendungen aufzeigen. Die nachhaltige Vermittlung von Methodenkompetenzen in der digitalen Verwaltung sowie Empfehlungen bezüglich der Verbesserung von Prozessen runden den Prozeß ab. <br/>Das Vorgehen nutzt agile Arbeitsprozesse, in dem Prototypen iterativ und in enger Abstimmung mit den beteiligten Akteur:innen entwickelt werden.",
             en: "In the prototype workshop, we supported the city administration with the digitisation of small-scale IT processes. Together with the Berlin IT Service Centre (ITDZ), we have developed digital prototypes to support the replacement of hundreds of these small-scale processes (that previously existed solely in Microsoft Excel or Access, for example). In addition to the development of prototypes, this project also aims to build up digital expertise in the city government and offer concrete suggestions for how to improve and modernize digital processes. This project emphasizes agile work processes in which prototypes are developed iteratively and in close consultation with the actors involved.",
           },
           funfact: {
@@ -285,13 +285,13 @@ const content = {
   stadtUndWir: {
     id: "3.0",
     topic: {
-      de: "Die Stadt und Wir",
+      de: "Die Stadt und wir",
       en: "The City and Us",
     },
     blocks: {
       intro: {
         title: {
-          de: "Die Stadt und Wir",
+          de: "Die Stadt und wir",
           en: "The City and Us",
         },
         text: {
@@ -441,8 +441,8 @@ const content = {
             en: "Gieß den Kiez & QTrees",
           },
           paragraph: {
-            de: "Unser Herzensprojekt Gieß den Kiez wurde 2021 einem Sprint unterzogen, sodass die Anwendung mit verbesserten Datenbankschema und Kartenkomponenten auch an warmen Tagen cool bleiben konnte. Neben Bäumen sprießte auch unser neues Baby “QTrees” aus dem Boden. In dem Forschungsprojekt sollen von Trockenheit gefährdete Stadtbäume mittels einer KI identifiziert werden.",
-            en: "A project close to our hearts, Gieß den Kiez underwent a sprint in 2021, the results of which enabled the application to stay cool on warm days with an improved database schema and map components. Speaking of trees, our new project QTrees also sprouted from the ground. The research project uses AI to identify urban trees at risk from drought. ",
+            de: "Unser Herzensprojekt Gieß den Kiez wurde 2021 einem Sprint unterzogen, sodass die Anwendung mit verbesserten Datenbankschema und Kartenkomponenten auch an warmen Tagen cool bleiben konnte. Neben Bäumen sprießte auch unser neues Baby “QTrees” aus dem Boden. In dem, vom Bundesumweltministerium geförderten Forschungsprojekt, sollen von Trockenheit gefährdete Stadtbäume mittels einer KI identifiziert werden.",
+            en: "A project close to our hearts, Gieß den Kiez underwent a sprint in 2021, the results of which enabled the application to stay cool on warm days with an improved database schema and map components. Speaking of trees, our new project QTrees also sprouted from the ground. The research project funded by the Federal Environment Ministry uses AI to identify urban trees at risk from drought. ",
           },
           funfact: {
             de: `2021 wuchsen nicht nur die Bäume – auch unser Lab ist von <strong>18 auf 26 Mitarbeiter:innen</strong> gewachsen`,
@@ -644,8 +644,8 @@ const content = {
             en: "Berlin - Creative Bureaucracy Festival",
           },
           paragraph: {
-            de: "Im Rahmen des Creative Bureaucracy Festivals bespielten wir den Smart City Governance Track und diskutierten mit verschiedenen internationalen Partner:innen, welches Potenzial verschiedene Governance-Modelle für die Smart City Berlin haben. Die Highlights findet ihr auf YouTube.",
-            en: "As part of the Creative Bureaucracy Festival, we curated the Smart City Governance Track and discussed the potential of different governance models for a Smart City Berlin with various international partners. You can find the highlights on YouTube.",
+            de: "Im Rahmen des Creative Bureaucracy Festivals bespielten wir den Smart City Governance Track, organisierten eine Diskussionsrunde mit CTOs internationaler Metropolen und diskutierten, welches Potenzial verschiedene Governance-Modelle für die Smart City Berlin haben. Die Highlights findet ihr auf YouTube.",
+            en: "As part of the Creative Bureaucracy Festival, we curated the Smart City Governance Track, organised a roundtable discussion with CTOs from international metropolises and discussed the potential of different governance models for the Smart City Berlin. You can find the highlights on YouTube.",
           },
         },
         img: {
