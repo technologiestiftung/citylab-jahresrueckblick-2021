@@ -192,16 +192,7 @@ const content = {
         theme: "dark",
         align: "left",
         text: {
-          links: [
-            {
-              de: 'Mehr Infos',
-              en: 'More information',
-              href: {
-                de: 'https://citylab-berlin.org/de/projects/digitalwerkstatt/',
-                en: 'https://citylab-berlin.org/en/projects/digitalwerkstatt/',
-              }
-            },
-          ],
+          links: [],
           title: {
             de: "Digitalwerkstatt Verwaltung",
             en: "Digital Workshop <br/> for Administration",
@@ -244,8 +235,8 @@ const content = {
         align: "left",
         text: {
           title: {
-            de: "AfS Dashboard",
-            en: "AfS Dashboard",
+            de: "Verwaltungsdashboard",
+            en: "Administration Dashboard",
           },
           paragraph: {
             de: "In vielen Bereichen der Berliner Verwaltung werden zahlreiche Daten zu diversen Leistungen erhoben und gespeichert, doch mangelt es an einer einheitlichen Darstellungsmethode. Im Rahmen von Design Sprints unterstützten wir das Amt für Statistik (AfS) und die Senatskanzlei bei der Konzeption einer zentralen Dashboardlösung, die in unterschiedlichen Verwaltungsbereichen und Kontexten zum Einsatz kommen soll. Daten könnten dadurch leichter präsentiert und zugänglich gemacht werden, auch die verwaltungsübergreifende Zusammenarbeit wird erleichtert.",
@@ -280,7 +271,7 @@ const content = {
           },
           funfact: {
             de: `Frischen Wind bringt auch unser Handbuch Öffentliches Gestalten in die Verwaltung. 2021 wurden unsere letzten <strong>227 von 700 Exemplare</strong> verschickt. Keine Sorge, Nachschub ist unterwegs!`,
-            en: `Our Public Design Handbook also brings a breath of fresh air to the administration. In 2021, we sent out our last <strong>227 of 700  scopies.</strong>  But don't worry — a new shipment is already on the way.`,
+            en: `Our Public Design Handbook also brings a breath of fresh air to the administration. In 2021, we sent out our last <strong>227 of 700  copies.</strong>  But don't worry — a new shipment is already on the way.`,
           },
         },
         img: {
@@ -644,7 +635,7 @@ const content = {
             },
             {
               de: "Zur Aufzeichnung Governance in Smart Cities",
-              en: "To the Video Governance in smart cities",
+              en: "To the video Governance in Smart Cities",
               href: "https://creativebureaucracy.org/discover/videos/governance-in-smart-cities-international-perspectives/",
             },
           ],
