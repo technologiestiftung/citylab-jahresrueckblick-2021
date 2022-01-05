@@ -192,7 +192,16 @@ const content = {
         theme: "dark",
         align: "left",
         text: {
-          links: [],
+          links: [
+            {
+              de: 'Mehr Infos',
+              en: 'More information',
+              href: {
+                de: 'https://citylab-berlin.org/de/projects/digitalwerkstatt/',
+                en: 'https://citylab-berlin.org/en/projects/digitalwerkstatt/',
+              }
+            },
+          ],
           title: {
             de: "Digitalwerkstatt Verwaltung",
             en: "Digital Workshop <br/> for Administration",
