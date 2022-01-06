@@ -213,7 +213,13 @@ const content = {
         theme: "light",
         align: "right",
         text: {
-          links: [],
+          links: [
+            {
+              de: "Mehr Infos",
+              en: "More information",
+              href: "https://www.youtube.com/watch?v=7lqiIoxMZgk"
+            },
+          ],
           title: {
             de: "Service Agenten-Schulung",
             en: "Service Agent Training",
