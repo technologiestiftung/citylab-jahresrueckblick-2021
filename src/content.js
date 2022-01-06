@@ -454,7 +454,7 @@ const content = {
             en: "Gieß den Kiez & QTrees",
           },
           paragraph: {
-            de: "Unser Herzensprojekt Gieß den Kiez wurde 2021 einem Sprint unterzogen, sodass die Anwendung mit verbesserten Datenbankschema und Kartenkomponenten auch an warmen Tagen cool bleiben konnte. Neben Bäumen sprießte auch unser neues Baby “QTrees” aus dem Boden. In dem, vom Bundesumweltministerium geförderten Forschungsprojekt, sollen von Trockenheit gefährdete Stadtbäume mittels einer KI identifiziert werden.",
+            de: "Unser Herzensprojekt Gieß den Kiez wurde 2021 einem Sprint unterzogen, sodass die Anwendung mit verbesserten Datenbankschema und Kartenkomponenten auch an warmen Tagen cool bleiben konnte. Neben Bäumen sprießte auch unser neues Baby “QTrees” aus dem Boden. In dem vom Bundesumweltministerium geförderten Forschungsprojekt sollen von Trockenheit gefährdete Stadtbäume mittels einer KI identifiziert werden.",
             en: "A project close to our hearts, Gieß den Kiez underwent a sprint in 2021, the results of which enabled the application to stay cool on warm days with an improved database schema and map components. Speaking of trees, our new project QTrees also sprouted from the ground. The research project funded by the Federal Environment Ministry uses AI to identify urban trees at risk from drought. ",
           },
           funfact: {
