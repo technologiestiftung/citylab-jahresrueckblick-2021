@@ -240,6 +240,13 @@ const content = {
         theme: "dark",
         align: "left",
         text: {
+          links: [
+             {
+              de: "Mehr Infos",
+              en: "More information",
+              href: "https://citylab-berlin.org/en/projects/afs-dashboard/"
+            },
+          ],
           title: {
             de: "Verwaltungsdashboard",
             en: "Administration Dashboard",
